@@ -2,8 +2,8 @@ import hero from "../../../assets/images/hero-image.png";
 
 const Hero = () => {
   return (
-    <div className="relative bg-[#f7efef1a] mx-20">
-      <div className="flex justify-between items-center h-full z-30 relative">
+    <div className="relative bg-[#f7efef1a] z-30 mx-20">
+      <div className="flex justify-between items-center h-full">
         <div className="w-1/2 mx-20">
           <img
             src={hero}
@@ -22,7 +22,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="text-white text-center mt-8 mx-20 bg-[#D9D9D940] opacity-70 z-30 relative h-[100px] flex items-center">
+      <div className="text-white text-center mt-8 mx-20 bg-[#D9D9D940] opacity-70 z-20 relative h-[100px] flex items-center">
         <p className="text-[#BD981B]">
           WE PARTNER TOGETHER WITH DELTAPATH AND PEXIP TO EXTEND OUR VALUE AND
           BRING IN A UNIQUE QUALITY OF EXPERIENCE ACROSS UNIFIED COMMUNICATION

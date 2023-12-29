@@ -9,7 +9,7 @@ import instagram from "../../../assets/images/instagram.png";
 const Footer = () => {
   return (
     <div
-      className="relative bg-cover"
+      className="relative bg-cover z-30 pt-20"
       style={{
         backgroundImage: `url(${background})`,
       }}
@@ -49,15 +49,15 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-52 w-80 ml-20">
-          <h3>Services</h3>
-          <p>
+          <h3 className="z-10 relative">Services</h3>
+          <p className="z-10 relative">
             Project Consultancy Software development Unified communication
             Network & Security Digital marketing
           </p>
         </div>
         <div className="mt-52 w-80 ml-20">
-          <h3>Contact</h3>
-          <p>
+          <h3 className="z-10 relative">Contact</h3>
+          <p className="z-10 relative">
             Address: 108, Soi Pramote, Surawongse Road, Bangrak, Bangkok -
             10500, Thailand Phone: +6662 949-2899 Email: info@intelasolution.com
           </p>
