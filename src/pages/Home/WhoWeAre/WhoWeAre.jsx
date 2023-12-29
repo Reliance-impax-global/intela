@@ -2,7 +2,7 @@ import whoWeAre from "../../../assets/images/who-we-are.png";
 
 const WhoWeAre = () => {
   return (
-    <div className="px-20 py-20 bg-[#13130B] opacity-75">
+    <div className="px-20 py-20 bg-[#091424]">
       <h2 className="text-xl font-bold text-left mb-2 text-white">
         WHO WE ARE
       </h2>
@@ -24,7 +24,9 @@ const WhoWeAre = () => {
             and application providers to ensure the solution meets your
             requirements for unmatched continuity with the services. To make it
             even better, we have trained engineers available to assist you
-            instantly when you need them.
+            instantly when you need them. requirements for unmatched continuity
+            with the services. To make it even better, we have trained engineers
+            available to assist you instantly when you need them.
           </p>
         </div>
         <div className="w-1/2">
