@@ -10,8 +10,8 @@ const Deltapath = () => {
       <div className="grid grid-cols-3">
         <div className="card w-96 bg-neutral text-neutral-content py-20">
           <div className="card-body items-center text-center">
-            <h2 className="card-title">Deltapath Engage</h2>
-            <p>Mac App store</p>
+            <h2 className="card-title mb-2">Deltapath Engage</h2>
+            <p className="mb-2">Mac App store</p>
             <div className="card-actions justify-end">
               <button className="w-[121px] bg-yellow-500 mr-40 rounded-lg ml-32">
                 Download
@@ -21,8 +21,8 @@ const Deltapath = () => {
         </div>
         <div className="card w-96 bg-neutral text-neutral-content py-20">
           <div className="card-body items-center text-center">
-            <h2 className="card-title">Deltapath Engage</h2>
-            <p>Apple Store</p>
+            <h2 className="card-title mb-2">Deltapath Engage</h2>
+            <p className="mb-2">Apple Store</p>
             <div className="card-actions justify-end">
               <button className="w-[121px] bg-yellow-500 mr-40 rounded-lg ml-32">
                 Download
@@ -32,8 +32,8 @@ const Deltapath = () => {
         </div>
         <div className="card w-96 bg-neutral text-neutral-content py-20">
           <div className="card-body items-center text-center">
-            <h2 className="card-title">Deltapath Engage</h2>
-            <p>Play Store</p>
+            <h2 className="card-title mb-2">Deltapath Engage</h2>
+            <p className="mb-2">Play Store</p>
             <div className=" text-center">
               <button className="w-[121px] bg-yellow-500 mr-40 rounded-lg ml-32">
                 Download
