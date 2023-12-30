@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../../assets/images/logo.png";
 const Navbar = () => {
   return (
@@ -23,41 +24,38 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gradient-to-r from-[rgba(2,61,171,0.95)] via-[rgba(2,61,171,0.95)] to-[rgba(9,12,11,0.95)] rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#132A50] rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <Link to="/">HOME</Link>
               </li>
               <li>
-                <a>Services</a>
+                <Link to="/services">SERVICES</Link>
+              </li>
+              <li className="bg-[#132A50]">
+                <Link to="solution">SOLUTION</Link>
                 <ul className="p-2">
                   <li>
-                    <a>Submenu 1</a>
+                    <Link to="/unified-communication">
+                      Unified Communication
+                    </Link>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <Link to="/network-security">Network & Security</Link>
+                  </li>
+                  <li>
+                    <Link to="/application">Application</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a>Solutions</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <Link to="/blog">BLOG</Link>
               </li>
               <li>
-                <a>About</a>
+                <Link to="/about">ABOUT</Link>
               </li>
               <li>
-                <a>Blog</a>
-              </li>
-              <li>
-                <a>Contact</a>
+                <Link to="/contact"></Link>
               </li>
             </ul>
           </div>
@@ -66,42 +64,39 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/services">Services</Link>
             </li>
             <li>
               <details>
-                <summary>Services</summary>
-                <ul className="p-2">
+                <summary>
+                  <Link to="/solution">Solution</Link>
+                </summary>
+                <ul className="p-2 bg-[#132A50]">
                   <li>
-                    <a>Submenu 1</a>
+                    <Link to="/unified-communication">
+                      Unified Communication
+                    </Link>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <Link to="/network-security">Network & Security</Link>
+                  </li>
+                  <li>
+                    <Link to="/application">Application</Link>
                   </li>
                 </ul>
               </details>
             </li>
             <li>
-              <details>
-                <summary>Solution</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <Link to="/blog">BLOG</Link>
             </li>
             <li>
-              <a>About</a>
+              <Link to="/about">ABOUT</Link>
             </li>
             <li>
-              <a>Blog</a>
-            </li>
-            <li>
-              <a>Contact</a>
+              <Link to="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>

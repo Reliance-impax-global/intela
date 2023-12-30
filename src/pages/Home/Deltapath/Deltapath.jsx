@@ -14,9 +14,9 @@ const Deltapath = () => {
         reach our sales team to provide you the username & password for further
         testing.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 lg:gap-11">
         <div
-          className="card w-96 bg-neutral text-neutral-content py-20"
+          className="card w-full bg-neutral text-neutral-content py-20"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
@@ -31,7 +31,7 @@ const Deltapath = () => {
           </div>
         </div>
         <div
-          className="card w-96 bg-neutral text-neutral-content py-20"
+          className="card w-full bg-neutral text-neutral-content py-20"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
@@ -46,7 +46,7 @@ const Deltapath = () => {
           </div>
         </div>
         <div
-          className="card w-96 bg-neutral text-neutral-content py-20"
+          className="card w-full bg-neutral text-neutral-content py-20"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
@@ -61,14 +61,14 @@ const Deltapath = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 ml-4 sm:ml-8 md:ml-16 lg:ml-20 my-6 sm:my-8 md:my-10 lg:my-12">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ml-4 sm:ml-8 md:ml-16 lg:ml-20 my-6 sm:my-8 md:my-10 lg:my-12">
         <div
-          className="card w-2/3 h-36 bg-white text-black"
+          className="card w-2/3 md:w-full h-36 bg-white text-black"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
           <div className="card-body">
-            <h2 className="card-title">How webRTC can be...</h2>
+            <h2 className="card font-bold">How webRTC can be...</h2>
 
             <div className="text-left">
               <span>Read More</span>
@@ -76,12 +76,12 @@ const Deltapath = () => {
           </div>
         </div>
         <div
-          className="card w-2/3 h-36 bg-white text-black"
+          className="card w-2/3 md:w-full  h-36 bg-white text-black"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
           <div className="card-body">
-            <h2 className="card-title">How Deltapath...</h2>
+            <h2 className="card font-bold">How Deltapath...</h2>
 
             <div className="text-left">
               <span>Read More</span>
@@ -89,7 +89,7 @@ const Deltapath = () => {
           </div>
         </div>
         <div
-          className="card w-2/3 h-36 bg-white text-black"
+          className="card w-2/3 md:w-full  h-36 bg-white text-black"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
@@ -102,7 +102,7 @@ const Deltapath = () => {
           </div>
         </div>
         <div
-          className="card w-2/3 h-36 bg-white text-black"
+          className="card w-2/3 md:w-full  h-36 bg-white text-black"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
