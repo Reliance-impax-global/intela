@@ -1,20 +1,20 @@
-import solution1 from "../../../assets/images/it-solution-1.png";
-import solution2 from "../../../assets/images/it-solution-2.png";
-import solution3 from "../../../assets/images/it-solution-3.png";
-import solution4 from "../../../assets/images/it-solution-4.png";
-const ItSolution = () => {
+import otherService1 from "../../../assets/images/other-service1.png";
+import otherService2 from "../../../assets/images/other-service2.png";
+import otherService3 from "../../../assets/images/other-service3.png";
+import otherService4 from "../../../assets/images/other-service4.png";
+const OtherService = () => {
   return (
-    <div className="bg-[#091424] pb-20">
+    <div className="bg-[#091424]">
       <h2 className="text-3xl text-white font-bold ml-20 py-5">
-        IT SOLUTION AND SERVICES
+        OTHER SERVICE OFFERING
       </h2>
-      <div className="grid grid-cols-4 gap-3 shadow-2xl mx-20 bg-[#132541] text-white rounded-2xl">
+      <div className="grid grid-cols-4 gap-3 shadow-2xl mx-20  bg-[#132541] text-white rounded-2xl">
         <div className="card w-full  shadow-xl">
           <figure className="pt-10">
-            <img src={solution1} alt="Solution1" className="rounded-xl" />
+            <img src={otherService1} alt="Solution1" className="rounded-xl" />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title">INFRASTRUCTURE AND SECURITY PRODUCT</h2>
+            <h2 className="card-title">DIGITAL CONTENT MARKETING</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
               eos minima incidunt.
@@ -28,10 +28,10 @@ const ItSolution = () => {
         </div>
         <div className="card w-full shadow-xl">
           <figure className=" pt-10">
-            <img src={solution2} alt="Solution2" className="rounded-xl" />
+            <img src={otherService2} alt="Solution2" className="rounded-xl" />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title">VOIP AND CONFERENCE SOLUTION</h2>
+            <h2 className="card-title">TOUR AND TRAVEL SERVICE</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
               eos minima incidunt.
@@ -45,10 +45,10 @@ const ItSolution = () => {
         </div>
         <div className="card w-full shadow-xl">
           <figure className="pt-10">
-            <img src={solution3} alt="Solution3" className="rounded-xl" />
+            <img src={otherService3} alt="Solution3" className="rounded-xl" />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title">APPLICATION DEV AND INTEGRATION</h2>
+            <h2 className="card-title">IMPORT AND EXPORT</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
               eos minima incidunt.
@@ -62,10 +62,10 @@ const ItSolution = () => {
         </div>
         <div className="card w-full shadow-xl">
           <figure className="pt-10">
-            <img src={solution4} alt="Solution4" className="rounded-xl" />
+            <img src={otherService4} alt="Solution4" className="rounded-xl" />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title">PROJECT AND CONSULTANCY</h2>
+            <h2 className="card-title">RENOVATION AND CONSTRUCTION</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
               eos minima incidunt.
@@ -82,4 +82,4 @@ const ItSolution = () => {
   );
 };
 
-export default ItSolution;
+export default OtherService;

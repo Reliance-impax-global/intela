@@ -2,6 +2,7 @@ import background from "../../../assets/images/background-image.png";
 import gradientOverlay from "../../../assets/images/baygrond.png";
 import Hero from "../Hero/Hero";
 import ItSolution from "../ItSolution/ItSolution";
+import OtherService from "../OtherService/OtherService";
 import WhoWeAre from "../WhoWeAre/WhoWeAre";
 
 const Home = () => {
@@ -28,6 +29,7 @@ const Home = () => {
       </div>
       <WhoWeAre />
       <ItSolution />
+      <OtherService />
     </>
   );
 };
