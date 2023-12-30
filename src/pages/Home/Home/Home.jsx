@@ -1,5 +1,6 @@
 import background from "../../../assets/images/background-image.png";
 import gradientOverlay from "../../../assets/images/baygrond.png";
+import Deltapath from "../Deltapath/Deltapath";
 import Hero from "../Hero/Hero";
 import ItSolution from "../ItSolution/ItSolution";
 import OtherService from "../OtherService/OtherService";
@@ -32,6 +33,7 @@ const Home = () => {
       <ItSolution />
       <OtherService />
       <UnlockExclusive />
+      <Deltapath />
     </>
   );
 };

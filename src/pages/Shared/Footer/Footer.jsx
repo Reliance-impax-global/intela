@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
       <hr />
       <p className="text-center text-white z-20 relative">
-        © 2023 INTELA. All rights reserved.
+        © 2023 INTELA. All rights reserved | Developed by Nizam.
       </p>
     </div>
   );
