@@ -3,6 +3,7 @@ import gradientOverlay from "../../../assets/images/baygrond.png";
 import Hero from "../Hero/Hero";
 import ItSolution from "../ItSolution/ItSolution";
 import OtherService from "../OtherService/OtherService";
+import UnlockExclusive from "../UnlockExclusive/UnlockExclusive";
 import WhoWeAre from "../WhoWeAre/WhoWeAre";
 
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
       <WhoWeAre />
       <ItSolution />
       <OtherService />
+      <UnlockExclusive />
     </>
   );
 };
