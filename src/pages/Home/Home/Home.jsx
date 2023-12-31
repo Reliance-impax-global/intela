@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import background from "../../../assets/images/background-image.png";
 import gradientOverlay from "../../../assets/images/baygrond.png";
 import Deltapath from "../Deltapath/Deltapath";
@@ -10,6 +11,9 @@ import WhoWeAre from "../WhoWeAre/WhoWeAre";
 const Home = () => {
   return (
     <>
+      <Helmet>
+        <title>Intela ~ Home</title>
+      </Helmet>
       <div
         className="relative bg-cover h-screen"
         style={{
