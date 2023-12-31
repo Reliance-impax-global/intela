@@ -4,12 +4,12 @@ const Navbar = () => {
   return (
     <div>
       <div className="navbar bg-gradient-to-r from-[rgba(2,61,171,0.95)] via-[rgba(2,61,171,0.95)] to-[rgba(9,12,11,0.95)] text-white">
-        <div className="navbar-start mx-20">
+        <div className="navbar-start md:mx-20">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-8 w-8"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -59,7 +59,13 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <img className="w-[222px] h-[55px]" src={logo} alt="Logo" />
+          <div className="ml-10">
+            <img
+              className="w-[200px] md:w-[222px] md:h-[55px]"
+              src={logo}
+              alt="Logo"
+            />
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -100,8 +106,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end me-20">
-          <a className="btn bg-[#BD981B] w-[111px]">Free Call</a>
+        <div className="navbar-end md:me-20">
+          <a className="btn bg-[#BD981B] w-[100px] md:w-[111px]">Free Call</a>
         </div>
       </div>
     </div>
