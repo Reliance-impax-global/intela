@@ -11,7 +11,7 @@ const FeatureService = () => {
     <div className="px-4 py-16 mx-4 md:mx-8 lg:mx-20 backdrop:sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-[#091424] text-white shadow-2xl">
       <div className="grid gap-8 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-3">
         <div>
-          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500">
+          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-bounce">
             <img className="w-1/2" src={service1} alt="service1" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">
@@ -25,7 +25,7 @@ const FeatureService = () => {
           </ul>
         </div>
         <div>
-          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500">
+          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-pulse">
             <img className="w-1/2" src={service2} alt="service1" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">GOOGLE ADS</h6>
@@ -36,7 +36,7 @@ const FeatureService = () => {
           </ul>
         </div>
         <div>
-          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500">
+          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-pulse">
             <img className="w-1/2" src={service3} alt="service1" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">
@@ -50,7 +50,7 @@ const FeatureService = () => {
           </ul>
         </div>
         <div>
-          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500">
+          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-bounce">
             <img className="w-1/2" src={service4} alt="service1" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">SMS MARKETING</h6>
@@ -62,7 +62,7 @@ const FeatureService = () => {
           </ul>
         </div>
         <div>
-          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500">
+          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-pulse">
             <img className="w-1/2" src={service5} alt="service5" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">
@@ -76,7 +76,7 @@ const FeatureService = () => {
           </ul>
         </div>
         <div>
-          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500">
+          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-bounce">
             <img className="w-1/2" src={service6} alt="service6" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">EMAIL MARKETING</h6>
@@ -88,7 +88,7 @@ const FeatureService = () => {
           </ul>
         </div>
         <div>
-          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500">
+          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-pulse">
             <img className="w-1/2" src={service7} alt="service6" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">WEBSITE DEVELOPMENT</h6>
@@ -102,7 +102,7 @@ const FeatureService = () => {
           </ul>
         </div>
         <div>
-          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500">
+          <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-bounce">
             <img className="w-1/2" src={service8} alt="service6" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">APP DEVELOPMENT</h6>
