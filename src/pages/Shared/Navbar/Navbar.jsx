@@ -76,7 +76,7 @@ const Navbar = () => {
               <Link to="/services">Services</Link>
             </li>
             <li>
-              <details>
+              <details className="z-40">
                 <summary>
                   <Link to="/solution">Solution</Link>
                 </summary>
