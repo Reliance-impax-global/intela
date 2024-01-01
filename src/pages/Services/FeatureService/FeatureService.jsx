@@ -12,7 +12,11 @@ const FeatureService = () => {
       <div className="grid gap-8 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-3">
         <div>
           <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-bounce">
-            <img className="w-1/2" src={service1} alt="service1" />
+            <img
+              className="w-1/2 hover:animate-ping"
+              src={service1}
+              alt="service1"
+            />
           </div>
           <h6 className="mb-2 font-semibold leading-5">
             SEARCH ENGINE OPTIMISATION
@@ -26,7 +30,11 @@ const FeatureService = () => {
         </div>
         <div>
           <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-pulse">
-            <img className="w-1/2" src={service2} alt="service1" />
+            <img
+              className="w-1/2 hover:animate-ping"
+              src={service2}
+              alt="service1"
+            />
           </div>
           <h6 className="mb-2 font-semibold leading-5">GOOGLE ADS</h6>
           <ul className="mb-3 text-sm list-disc">
@@ -37,7 +45,11 @@ const FeatureService = () => {
         </div>
         <div>
           <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-pulse">
-            <img className="w-1/2" src={service3} alt="service1" />
+            <img
+              className="w-1/2 hover:animate-ping"
+              src={service3}
+              alt="service1"
+            />
           </div>
           <h6 className="mb-2 font-semibold leading-5">
             SOCIAL MEDIA MARKETING
@@ -51,7 +63,11 @@ const FeatureService = () => {
         </div>
         <div>
           <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-bounce">
-            <img className="w-1/2" src={service4} alt="service1" />
+            <img
+              className="w-1/2 hover:animate-ping"
+              src={service4}
+              alt="service1"
+            />
           </div>
           <h6 className="mb-2 font-semibold leading-5">SMS MARKETING</h6>
           <ul className="mb-3 text-sm list-disc">
@@ -63,7 +79,11 @@ const FeatureService = () => {
         </div>
         <div>
           <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-pulse">
-            <img className="w-1/2" src={service5} alt="service5" />
+            <img
+              className="w-1/2 hover:animate-ping"
+              src={service5}
+              alt="service5"
+            />
           </div>
           <h6 className="mb-2 font-semibold leading-5">
             CUSTOMISED LANDING PAGE
@@ -77,7 +97,11 @@ const FeatureService = () => {
         </div>
         <div>
           <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-bounce">
-            <img className="w-1/2" src={service6} alt="service6" />
+            <img
+              className="w-1/2 hover:animate-ping"
+              src={service6}
+              alt="service6"
+            />
           </div>
           <h6 className="mb-2 font-semibold leading-5">EMAIL MARKETING</h6>
           <ul className="mb-3 text-sm list-disc">
@@ -89,7 +113,11 @@ const FeatureService = () => {
         </div>
         <div>
           <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-pulse">
-            <img className="w-1/2" src={service7} alt="service6" />
+            <img
+              className="w-1/2 hover:animate-ping"
+              src={service7}
+              alt="service6"
+            />
           </div>
           <h6 className="mb-2 font-semibold leading-5">WEBSITE DEVELOPMENT</h6>
           <ul className="mb-3 text-sm list-disc">
@@ -103,7 +131,11 @@ const FeatureService = () => {
         </div>
         <div>
           <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-bounce">
-            <img className="w-1/2" src={service8} alt="service6" />
+            <img
+              className="w-1/2 hover:animate-ping"
+              src={service8}
+              alt="service6"
+            />
           </div>
           <h6 className="mb-2 font-semibold leading-5">APP DEVELOPMENT</h6>
           <ul className="mb-3 text-sm list-disc">

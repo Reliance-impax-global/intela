@@ -17,7 +17,7 @@ const ServiceBenefit = () => {
       <div className="py-16 md:ml-24 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 rounded-2xl shadow-2xl">
         <div className="grid grid-cols-2 gap-5 row-gap-5 sm:grid-cols-3 lg:grid-cols-6">
           <div className="text-center border rounded-lg shadow-2xl">
-            <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 sm:w-12 sm:h-12 animate-bounce">
+            <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 sm:w-12 sm:h-12 animate-bounce hover:animate-ping">
               <img src={benefit1} alt="" />
             </div>
             <h6 className="mb-2 text-sm text-white font-bold leading-5 tracking-wider uppercase">
@@ -25,7 +25,7 @@ const ServiceBenefit = () => {
             </h6>
           </div>
           <div className="text-center  border rounded-lg shadow-2xl">
-            <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 sm:w-12 sm:h-12 animate-bounce">
+            <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 sm:w-12 sm:h-12 animate-pulse hover:animate-ping">
               <img src={benefit2} alt="" />
             </div>
             <h6 className="mb-2 text-sm text-white font-bold leading-5 tracking-wider uppercase">
@@ -33,7 +33,7 @@ const ServiceBenefit = () => {
             </h6>
           </div>
           <div className="text-center  border rounded-lg shadow-2xl">
-            <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 sm:w-12 sm:h-12 animate-spin">
+            <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 sm:w-12 sm:h-12 animate-spin hover:animate-ping">
               <img src={benefit3} alt="" />
             </div>
             <h6 className="mb-2 text-sm text-white font-bold leading-5 tracking-wider uppercase">
@@ -41,7 +41,7 @@ const ServiceBenefit = () => {
             </h6>
           </div>
           <div className="text-center  border rounded-lg shadow-2xl">
-            <div className="flex items-center justify-center text-white w-10 h-10 mx-auto mb-4 sm:w-12 sm:h-12 animate-pulse">
+            <div className="flex items-center justify-center text-white w-10 h-10 mx-auto mb-4 sm:w-12 sm:h-12 animate-pulse hover:animate-ping">
               <img style={{ filter: "invert(100%)" }} src={benefit4} alt="" />
             </div>
             <h6 className="mb-2 text-sm text-white font-bold leading-5 tracking-wider uppercase">
@@ -49,7 +49,7 @@ const ServiceBenefit = () => {
             </h6>
           </div>
           <div className="text-center border rounded-lg shadow-2xl">
-            <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 sm:w-12 sm:h-12 animate-bounce">
+            <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 sm:w-12 sm:h-12 animate-bounce hover:animate-ping">
               <img style={{ filter: "invert(100%)" }} src={benefit5} alt="" />
             </div>
             <h6 className="mb-2 text-sm text-white font-bold leading-5 tracking-wider uppercase">
