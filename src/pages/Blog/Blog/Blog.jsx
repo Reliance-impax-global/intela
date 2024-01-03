@@ -149,7 +149,11 @@ const Blog = () => {
               data-aos="flip-left"
               data-aos-duration="3000"
             >
-              <img src={blogImg5} className="object-fill w-full h-64" alt="" />
+              <img
+                src={blogImg5}
+                className="object-fill w-full h-64"
+                alt="Blog Image 5"
+              />
               <div className="p-5 border-t-0">
                 <a
                   href="/"
@@ -175,7 +179,11 @@ const Blog = () => {
               data-aos="flip-left"
               data-aos-duration="3000"
             >
-              <img src={blogImg6} className="object-fill w-full h-64" alt="" />
+              <img
+                src={blogImg6}
+                className="object-fill w-full h-64"
+                alt="Blog Image 6"
+              />
               <div className="p-5 border-t-0">
                 <a
                   href="/"
