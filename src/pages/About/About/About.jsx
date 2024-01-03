@@ -2,6 +2,9 @@ import { Helmet } from "react-helmet-async";
 import AboutBanner from "../AboutBanner/AboutBanner";
 import background from "../../../assets/solution/background-img.png";
 import gradientOverlay from "../../../assets/images/baygrond.png";
+import OurMission from "../OurMission/OurMission";
+import BestBusiness from "../BestBusiness/BestBusiness";
+import CoreValues from "../CoreValues/CoreValues";
 
 const About = () => {
   return (
@@ -28,6 +31,9 @@ const About = () => {
           </div>
         </div>
       </div>
+      <OurMission />
+      <BestBusiness />
+      <CoreValues />
     </div>
   );
 };
