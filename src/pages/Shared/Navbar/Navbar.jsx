@@ -29,8 +29,24 @@ const Navbar = () => {
               <li>
                 <Link to="/">HOME</Link>
               </li>
-              <li>
-                <Link to="/services">SERVICES</Link>
+              <li className="bg-[#132A50]">
+                <Link to="solution">SERVICES</Link>
+                <ul className="p-2">
+                  <li>
+                    <Link to="/unified-communication">
+                      SOFTWARE DEVELOPMENT
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/network-security">WEB DEVELOPMENT</Link>
+                  </li>
+                  <li>
+                    <Link to="/application">UI & UX DESIGN</Link>
+                  </li>
+                  <li>
+                    <Link to="/application">WEB HOSTING SECURITY</Link>
+                  </li>
+                </ul>
               </li>
               <li className="bg-[#132A50]">
                 <Link to="solution">SOLUTION</Link>
@@ -73,7 +89,27 @@ const Navbar = () => {
               <Link to="/">HOME</Link>
             </li>
             <li>
-              <Link to="/services">SERVICES</Link>
+              <details className="z-40">
+                <summary>
+                  <Link to="/solution">SERVICES</Link>
+                </summary>
+                <ul className="p-2 bg-[#132A50]">
+                  <li>
+                    <Link to="/unified-communication">
+                      SOFTWARE DEVELOPMENT
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/network-security">WEB DEVELOPMENT</Link>
+                  </li>
+                  <li>
+                    <Link to="/application">UI & UX DESIGN</Link>
+                  </li>
+                  <li>
+                    <Link to="/application">WEB HOSTING SECURITY</Link>
+                  </li>
+                </ul>
+              </details>
             </li>
             <li>
               <details className="z-40">

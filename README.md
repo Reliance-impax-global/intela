@@ -17,7 +17,7 @@ Projects Name: Intela
 
 ## Overview
 
-This projects creates for RIG Group
+This projects creates for RIG Group.
 Technology: HTML, Tailwind CSS, daisyui, React js.
 
 ### Screenshot
