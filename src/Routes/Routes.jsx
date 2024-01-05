@@ -11,6 +11,10 @@ import UnifiedCommunication from "../pages/UnifiedCommunication/UnifiedCommunica
 import NetworkSecurity from "../pages/NetworkSecurity/NetworkSecurity/NetworkSecurity";
 import Application from "../pages/Application/Application/Application";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import SoftwareDevelopment from "../pages/SoftwareDevelopment/SoftwareDevelopment";
+import WebDevelopment from "../pages/WebDevelopment/WebDevelopment";
+import UiUxDesign from "../pages/UiUxDesign/UiUxDesign";
+import WebHostingSecurity from "../pages/WebHostingSecurity/WebHostingSecurity";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +29,22 @@ export const router = createBrowserRouter([
       {
         path: "services",
         element: <Services />,
+      },
+      {
+        path: "software-development",
+        element: <SoftwareDevelopment />,
+      },
+      {
+        path: "web-development",
+        element: <WebDevelopment />,
+      },
+      {
+        path: "ui-ux-design",
+        element: <UiUxDesign />,
+      },
+      {
+        path: "web-hosting-security",
+        element: <WebHostingSecurity />,
       },
       {
         path: "solution",

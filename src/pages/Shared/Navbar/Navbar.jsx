@@ -33,18 +33,16 @@ const Navbar = () => {
                 <Link to="solution">SERVICES</Link>
                 <ul className="p-2">
                   <li>
-                    <Link to="/unified-communication">
-                      SOFTWARE DEVELOPMENT
-                    </Link>
+                    <Link to="/software-development">SOFTWARE DEVELOPMENT</Link>
                   </li>
                   <li>
-                    <Link to="/network-security">WEB DEVELOPMENT</Link>
+                    <Link to="/web-development">WEB DEVELOPMENT</Link>
                   </li>
                   <li>
-                    <Link to="/application">UI & UX DESIGN</Link>
+                    <Link to="/ui-ux-design">UI & UX DESIGN</Link>
                   </li>
                   <li>
-                    <Link to="/application">WEB HOSTING SECURITY</Link>
+                    <Link to="/web-hosting-security">WEB HOSTING SECURITY</Link>
                   </li>
                 </ul>
               </li>
@@ -95,18 +93,16 @@ const Navbar = () => {
                 </summary>
                 <ul className="p-2 bg-[#132A50]">
                   <li>
-                    <Link to="/unified-communication">
-                      SOFTWARE DEVELOPMENT
-                    </Link>
+                    <Link to="/software-development">SOFTWARE DEVELOPMENT</Link>
                   </li>
                   <li>
-                    <Link to="/network-security">WEB DEVELOPMENT</Link>
+                    <Link to="/web-development">WEB DEVELOPMENT</Link>
                   </li>
                   <li>
-                    <Link to="/application">UI & UX DESIGN</Link>
+                    <Link to="/ui-ux-design">UI & UX DESIGN</Link>
                   </li>
                   <li>
-                    <Link to="/application">WEB HOSTING SECURITY</Link>
+                    <Link to="/web-hosting-security">WEB HOSTING SECURITY</Link>
                   </li>
                 </ul>
               </details>
