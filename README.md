@@ -1,8 +1,65 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projects Name: Intela
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+This projects creates for RIG Group
+Technology: HTML, Tailwind CSS, React js.
+
+### Screenshot
+
+![](./src/assets/homepage.png)
+![](./src/assets/servicepage.png)
+![](./src/assets/solutionpage.png)
+
+### Links
+
+- Live Site URL: [Live Link](https://intela.vercel.app/)
+
+## My process
+
+### Built with
+
+-
+- Style Components
+-
+
+### What I learned
+
+```html
+
+```
+
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+
+```js
+const proudOfThisFunc = () => {
+  console.log("🎉");
+};
+```
+
+### Useful resources
+
+I use Style Components
+
+- Website - [Freelancer Nizam](https://www.nizam2020.com)
+- Frontend Mentor - [@freelancernizamc](https://www.frontendmentor.io/profile/freelancernizamc)
+- Twitter - [@freelancernizam](https://www.twitter.com/freelancernizam)
