@@ -11,7 +11,7 @@ Projects Name: Intela
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Follow me](#follow-me)
+  - [Follow Me](#follow-me)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -64,6 +64,6 @@ const proudOfThisFunc = () => {
 
 ### Author
 
-Md. Nizam Uddin
-Web Developer
-WhatsApp: +8801819968181
+- Md. Nizam Uddin ,
+- Web Developer,
+- WhatsApp: +8801819968181
