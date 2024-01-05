@@ -10,11 +10,13 @@ import Contact from "../pages/Contact/Contact/Contact";
 import UnifiedCommunication from "../pages/UnifiedCommunication/UnifiedCommunication/UnifiedCommunication";
 import NetworkSecurity from "../pages/NetworkSecurity/NetworkSecurity/NetworkSecurity";
 import Application from "../pages/Application/Application/Application";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",

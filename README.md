@@ -18,7 +18,7 @@ Projects Name: Intela
 ## Overview
 
 This projects creates for RIG Group
-Technology: HTML, Tailwind CSS, React js.
+Technology: HTML, Tailwind CSS, daisyui, React js.
 
 ### Screenshot
 
@@ -34,9 +34,9 @@ Technology: HTML, Tailwind CSS, React js.
 
 ### Built with
 
--
-- Style Components
--
+- React js
+- Tailwind CSS, daisyui
+- HTML
 
 ### What I learned
 
@@ -57,8 +57,6 @@ const proudOfThisFunc = () => {
 ```
 
 ### Useful resources
-
-I use Style Components
 
 - Website - [Freelancer Nizam](https://www.nizam2020.com)
 - Frontend Mentor - [@freelancernizamc](https://www.frontendmentor.io/profile/freelancernizamc)
