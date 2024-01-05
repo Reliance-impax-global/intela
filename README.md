@@ -11,7 +11,7 @@ Projects Name: Intela
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  - [Follow me](#follow-me)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -56,8 +56,14 @@ const proudOfThisFunc = () => {
 };
 ```
 
-### Useful resources
+### Follow Me
 
 - Website - [Freelancer Nizam](https://www.nizam2020.com)
 - Frontend Mentor - [@freelancernizamc](https://www.frontendmentor.io/profile/freelancernizamc)
 - Twitter - [@freelancernizam](https://www.twitter.com/freelancernizam)
+
+### Author
+
+Md. Nizam Uddin
+Web Developer
+WhatsApp: +8801819968181
