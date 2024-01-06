@@ -11,7 +11,7 @@ const UiUxDesign = () => {
   return (
     <div>
       <Helmet>
-        <title>Intela ~ Services ~ Web Development</title>
+        <title>Intela ~ Services ~ Ui & Ux Design</title>
       </Helmet>
       <div
         className="relative bg-cover h-screen"
