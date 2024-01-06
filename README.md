@@ -37,6 +37,9 @@ Technology: HTML, Tailwind CSS, daisyui, React js.
 - React js
 - Tailwind CSS, daisyui
 - HTML
+- AOS Animation
+- React Router DOM
+- React-helmet-async
 
 ### What I learned
 
