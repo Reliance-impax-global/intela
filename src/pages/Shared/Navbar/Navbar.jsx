@@ -1,9 +1,23 @@
 import { Link } from "react-router-dom";
-import logo from "../../../assets/images/logo.png";
+import logo from "../../../assets/images/logo2.png";
+import background from "../../../assets/images/background-image.png";
+import gradientOverlay from "../../../assets/images/baygrond.png";
 const Navbar = () => {
   return (
-    <div>
-      <div className="navbar bg-gradient-to-r from-[rgba(2,61,171,0.95)] via-[rgba(2,61,171,0.95)] to-[rgba(9,12,11,0.95)] text-white">
+    <div
+      className="relative bg-cover z-30 pt-2"
+      style={{
+        backgroundImage: `url(${background})`,
+      }}
+    >
+      <div
+        className="absolute inset-0"
+        style={{
+          backgroundImage: `url(${gradientOverlay})`,
+          opacity: 0.97,
+        }}
+      ></div>
+      <div className="navbar text-white">
         <div className="navbar-start md:mx-20">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,7 +44,7 @@ const Navbar = () => {
                 <Link to="/">HOME</Link>
               </li>
               <li className="bg-[#132A50]">
-                <Link to="solution">SERVICES</Link>
+                <Link to="services">SERVICES</Link>
                 <ul className="p-2">
                   <li>
                     <Link to="/software-development">SOFTWARE DEVELOPMENT</Link>
@@ -73,7 +87,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="ml-10">
+          <div className="ml-10 z-50">
             <img
               className="w-[200px] md:w-[222px] md:h-[55px]"
               src={logo}
@@ -89,7 +103,7 @@ const Navbar = () => {
             <li>
               <details className="z-40">
                 <summary>
-                  <Link to="/solution">SERVICES</Link>
+                  <Link to="/services">SERVICES</Link>
                 </summary>
                 <ul className="p-2 bg-[#132A50]">
                   <li>
@@ -138,7 +152,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end md:me-20">
+        <div className="navbar-end md:me-20 z-50">
           <a className="btn bg-[#BD981B] w-[100px] md:w-[111px]">Free Call</a>
         </div>
       </div>

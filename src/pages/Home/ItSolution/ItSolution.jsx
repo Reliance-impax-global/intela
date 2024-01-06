@@ -12,7 +12,7 @@ const ItSolution = () => {
   }, []);
 
   return (
-    <div className="bg-[#091424] pb-20">
+    <div className="bg-gradient-to-r from-[rgba(6,12,24,0.97)] via-[rgba(3,25,66,0.95)] to-[rgba(9,12,11,0.95)] pb-20">
       <h2 className="text-3xl text-white font-bold mx-4 sm:mx-20 py-5">
         IT SOLUTION AND SERVICES
       </h2>

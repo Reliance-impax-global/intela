@@ -3,7 +3,7 @@ import unlockLogo from "../../../assets/images/unlock-logo.png";
 
 const UnlockExclusive = () => {
   return (
-    <div className="bg-[#091424] py-10 md:py-20 text-white px-4 md:px-20">
+    <div className="bg-gradient-to-r from-[rgba(10,22,44,0.97)] via-[rgba(2,61,171,0.95)] to-[rgba(9,12,11,0.95)] py-10 md:py-20 text-white px-4 md:px-20">
       <div className="mb-10 md:mb-20">
         <h2 className="text-2xl md:text-3xl font-bold">
           UNLOCK EXCLUSIVE DEALS WITH OUR TRUSTED PARTNERS

@@ -5,7 +5,7 @@ import coreValues4 from "../../../assets/about/core-values4.png";
 
 const CoreValues = () => {
   return (
-    <div className="bg-[#07121C] text-white py-5">
+    <div className="bg-[#021E4C] text-white py-5">
       <h1 className="text-lg md:text-xl lg:text-2xl font-bold pb-10 text-justify py-10 px-4 ml-7 md:px-8 lg:px-20 rounded-md shadow-2xl pt-8">
         OUR CORE VALUES THAT MAKE US PROFESSIONAL
       </h1>

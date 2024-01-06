@@ -31,7 +31,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#091424]">
+      <div className="bg-[#021E4C]">
         <FeatureService />
         <ServiceBenefit />
       </div>

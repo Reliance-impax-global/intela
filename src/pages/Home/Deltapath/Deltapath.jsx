@@ -7,7 +7,7 @@ const Deltapath = () => {
   }, []);
 
   return (
-    <div className="bg-[#091424] py-8 sm:py-12 md:py-16 lg:py-20 text-white px-4 sm:px-8 md:px-16 lg:px-20">
+    <div className="bg-gradient-to-r from-[rgba(9,19,37,0.97)] via-[rgba(2,61,171,0.95)] to-[rgba(9,12,11,0.95)] py-8 sm:py-12 md:py-16 lg:py-20 text-white px-4 sm:px-8 md:px-16 lg:px-20">
       <p className="pb-6 sm:pb-8 md:pb-10 lg:pb-12">
         Deltapath Mobile application & Deltapath Engage can be downloaded easily
         by clicking the icon – once your application is downloaded then you can

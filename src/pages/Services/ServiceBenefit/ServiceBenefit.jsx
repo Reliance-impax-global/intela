@@ -7,7 +7,7 @@ const ServiceBenefit = () => {
   return (
     <div className="mx-4 md:mx-8 lg:mx-20 shadow-2xl">
       <div>
-        <h2 className="text-white text-left px-4 md:ml-28">
+        <h2 className="text-white text-left px-4 md:ml-28 pt-5">
           INDUSTRIES THAT CAN BENEFIT FROM SERVICES SOLUTION, WE HELP THE
           COMPANY TO CREATE THEIR <br />
           DIGITAL CONTENT ONLINE AND MARKETING

@@ -12,7 +12,7 @@ const OtherService = () => {
   }, []);
 
   return (
-    <div className="bg-[#091424]">
+    <div className="bg-gradient-to-r from-[rgba(10,22,44,0.97)] via-[rgba(2,61,171,0.95)] to-[rgba(9,12,11,0.95)]">
       <h2 className="text-3xl text-white font-bold mx-4 sm:mx-20 py-5">
         OTHER SERVICE OFFERING
       </h2>
