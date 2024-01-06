@@ -11,7 +11,7 @@ const UnifiedCommunication = () => {
   return (
     <div>
       <Helmet>
-        <title>Intela ~ Unified Communication</title>
+        <title>Intela ~ Solution ~ Unified Communication</title>
       </Helmet>
       <div
         className="relative bg-cover h-screen"

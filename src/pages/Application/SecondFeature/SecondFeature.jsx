@@ -15,7 +15,7 @@ const SecondFeature = () => {
               <img
                 className="w-1/2 hover:animate-ping"
                 src={secondFeature1}
-                alt="service1"
+                alt="Second Feature 1"
               />
             </div>
             <h6 className="mb-2 font-semibold leading-5">
@@ -32,7 +32,7 @@ const SecondFeature = () => {
               <img
                 className="w-1/2 hover:animate-ping"
                 src={secondFeature2}
-                alt="service1"
+                alt="Second Feature 2"
               />
             </div>
             <h6 className="mb-2 font-semibold leading-5">UNIQUE DESIGN</h6>
@@ -46,7 +46,7 @@ const SecondFeature = () => {
               <img
                 className="w-1/2 hover:animate-ping"
                 src={secondFeature3}
-                alt="Second Feature3"
+                alt="Second Feature 3"
               />
             </div>
             <h6 className="mb-2 font-semibold leading-5">USER FRIENDLY</h6>
@@ -61,7 +61,7 @@ const SecondFeature = () => {
               <img
                 className="w-1/2 hover:animate-ping"
                 src={secondFeature4}
-                alt="Second Feature3"
+                alt="Second Feature 4"
               />
             </div>
             <h6 className="mb-2 font-semibold leading-5">EASY SETTINGS</h6>
@@ -75,7 +75,7 @@ const SecondFeature = () => {
               <img
                 className="w-1/2 hover:animate-ping"
                 src={secondFeature5}
-                alt="Second Feature5"
+                alt="Second Feature 5"
               />
             </div>
             <h6 className="mb-2 font-semibold leading-5">FLAT DESIGN</h6>
@@ -89,7 +89,7 @@ const SecondFeature = () => {
               <img
                 className="w-1/2 hover:animate-ping"
                 src={secondFeature6}
-                alt="Second Feature6"
+                alt="Second Feature 6"
               />
             </div>
             <h6 className="mb-2 font-semibold leading-5">EASY DOWNLOAD</h6>

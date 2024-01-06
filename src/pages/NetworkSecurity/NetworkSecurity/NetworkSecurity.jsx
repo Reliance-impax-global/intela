@@ -9,7 +9,7 @@ const NetworkSecurity = () => {
   return (
     <div>
       <Helmet>
-        <title>Intela ~ Network & Security</title>
+        <title>Intela ~ Solution ~ Network & Security</title>
       </Helmet>
       <div
         className="relative bg-cover h-screen"

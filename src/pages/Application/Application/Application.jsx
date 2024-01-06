@@ -9,7 +9,7 @@ const Application = () => {
   return (
     <div>
       <Helmet>
-        <title>Intela ~ Application</title>
+        <title>Intela ~ Solution ~ Application</title>
       </Helmet>
       <div
         className="relative bg-cover h-screen"
