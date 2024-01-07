@@ -16,7 +16,7 @@ const Main = () => {
         className="absolute inset-0"
         style={{
           backgroundImage: `url(${gradientOverlay})`,
-          opacity: 0.27,
+          opacity: 0.17,
         }}
       ></div>
       <Navbar />

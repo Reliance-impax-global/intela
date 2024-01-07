@@ -2,7 +2,7 @@ import hero from "../../../assets/images/hero-image.png";
 
 const Hero = () => {
   return (
-    <div className="relative bg-[#f7efef1a] z-30 mx-4 md:mx-8 lg:mx-20">
+    <div className="relative bg-[#f7efef1a] z-30 mx-4 md:mx-8 lg:mx-20 rounded-2xl">
       <div className="flex flex-col md:flex-row justify-between items-center h-full">
         <div className="w-full md:w-1/2 mx-4 md:mx-0">
           <img

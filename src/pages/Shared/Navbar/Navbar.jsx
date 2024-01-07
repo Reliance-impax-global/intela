@@ -1,20 +1,21 @@
 import { Link } from "react-router-dom";
-import logo from "../../../assets/images/logo2.png";
-import background from "../../../assets/images/background-image.png";
+import logo from "../../../assets/images/logo.png";
+// import background from "../../../assets/images/background-image.png";
 import gradientOverlay from "../../../assets/images/baygrond.png";
 const Navbar = () => {
   return (
     <div
-      className="relative bg-cover z-30 pt-2"
-      style={{
-        backgroundImage: `url(${background})`,
-      }}
+      // className="relative bg-cover z-30 pt-2"
+      // style={{
+      //   backgroundImage: `url(${background})`,
+      // }}
+      className="bg-[#031D49] pt-5"
     >
       <div
         className="absolute inset-0"
         style={{
           backgroundImage: `url(${gradientOverlay})`,
-          opacity: 0.97,
+          opacity: 0,
         }}
       ></div>
       <div className="navbar text-white">

@@ -1,4 +1,4 @@
-import logo from "../../../assets/images/logo2.png";
+import logo from "../../../assets/images/logo.png";
 import background from "../../../assets/images/background-image.png";
 import gradientOverlay from "../../../assets/images/baygrond.png";
 import facebook from "../../../assets/images/facebook.png";
@@ -9,7 +9,7 @@ import instagram from "../../../assets/images/instagram.png";
 const Footer = () => {
   return (
     <div
-      className="relative bg-cover z-30 pt-20 "
+      className="relative bg-cover z-30 pt-20 pl-10"
       style={{
         backgroundImage: `url(${background})`,
       }}
