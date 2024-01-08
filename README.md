@@ -23,8 +23,6 @@ Technology: HTML, Tailwind CSS, daisyui, React js.
 ### Screenshot
 
 ![](./src/assets/homepage.png)
-![](./src/assets/servicepage.png)
-![](./src/assets/solutionpage.png)
 
 ### Links
 
