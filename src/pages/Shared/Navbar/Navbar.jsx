@@ -90,7 +90,7 @@ const Navbar = () => {
           </div>
           <div className="ml-10 z-50">
             <img
-              className="w-[200px] md:w-[222px] md:h-[55px]"
+              className="w-[200px] md:w-[222px] md:h-[55px] z-50"
               src={logo}
               alt="Logo"
             />

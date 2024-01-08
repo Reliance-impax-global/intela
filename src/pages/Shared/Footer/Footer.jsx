@@ -27,7 +27,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between p-4 md:p-8 text-white relative z-10">
         <div className="w-full md:w-80 mb-8 md:mb-0">
           <img
-            className="w-32 h-8 md:w-44 md:h-11 my-4 md:my-8"
+            className="w-32 h-8 md:w-44 md:h-11 my-4 md:my-8 z-50"
             src={logo}
             alt="Logo"
           />

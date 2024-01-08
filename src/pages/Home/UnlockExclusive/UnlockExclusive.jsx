@@ -17,26 +17,32 @@ const UnlockExclusive = () => {
           encompass training, cybersecurity, and various IT services...
         </p>
       </div>
-      <div className="bg-white">
-        <div className="flex flex-col md:flex-row justify-center md:justify-between items-center h-[150px] w-full md:w-auto m-auto bg-[#132541] rounded-full">
-          <div className="flex md:justify-between items-center border-b md:border-b-0 md:border-r border-[#2f6591] md:w-1/2">
-            <div className="w-1/2 md:w-auto">
+      <div className="bg-white rounded-full">
+        <div
+          className="flex flex-col md:flex-row justify-center md:justify-between items-center h-[150px] w-full md:w-auto m-auto bg-[#132541] px-40"
+          style={{
+            clipPath:
+              "polygon(25% 0%, 80% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)",
+          }}
+        >
+          <div className="flex md:justify-between items-center border-b md:border-b-0 md:border-r-4 border-[#2f6591] md:w-1/2 py-5">
+            <div className="w-1/3 h-full md:w-auto">
               <img
-                className="w-1/2 md:w-full h-full object-cover"
+                className="w-full md:w-full h-full object-cover"
                 src={unlockExclusive}
                 alt="UnlockExclusive"
               />
             </div>
-            <div className="mt-4 md:mt-0 ml-4 md:ml-0">
+            <div className="mt-4 md:mt-0 ml-4 md:ml-0 pr-5">
               <button className="w-[80px] md:w-[180px] bg-yellow-500 rounded-lg">
                 Services
               </button>
             </div>
           </div>
-          <div className="flex md:justify-between items-center mt-4 md:mt-0 md:w-1/2">
-            <div className="w-1/2 md:w-auto">
+          <div className="flex md:justify-between items-center mt-4 md:mt-0 md:w-1/2  ">
+            <div className="w-1/3 md:w-full">
               <img
-                className="w-1/2 md:w-full h-full object-cover"
+                className="w-1/2 md:w-full h-full object-cover px-10"
                 src={unlockLogo}
                 alt="unlock-logo"
               />

@@ -16,9 +16,9 @@ const OtherService = () => {
       <h2 className="text-3xl text-white font-bold mx-4 sm:mx-20 py-5">
         OTHER SERVICE OFFERING
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 shadow-2xl mx-4 sm:mx-20 bg-[#132541] text-white rounded-2xl">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 shadow-2xl mx-4 sm:mx-20 bg-[#132541] text-white rounded-2xl border-8 border-solid border-blue-950">
         <div
-          className="card w-full sm:w-full md:w-[calc(100%-1rem)] lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-xl"
+          className="card w-full sm:w-full md:w-[calc(100%-1rem)] lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-xl border-8 border-solid border-blue-950"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
@@ -39,7 +39,7 @@ const OtherService = () => {
           </div>
         </div>
         <div
-          className="card w-full sm:w-full md:w-full lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-xl"
+          className="card w-full sm:w-full md:w-full lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-xl border-8 border-solid border-blue-950"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
@@ -60,7 +60,7 @@ const OtherService = () => {
           </div>
         </div>
         <div
-          className="card w-full sm:w-full md:w-full lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-xl"
+          className="card w-full sm:w-full md:w-full lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-xl border-8 border-solid border-blue-950"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
@@ -81,7 +81,7 @@ const OtherService = () => {
           </div>
         </div>
         <div
-          className="card w-full sm:w-full md:w-[calc(100% - 1rem)] lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-xl"
+          className="card w-full sm:w-full md:w-[calc(100% - 1rem)] lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-xl border-8 border-solid border-blue-950"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
