@@ -22,7 +22,7 @@ const UnlockExclusive = () => {
           className="flex flex-col md:flex-row justify-center md:justify-between items-center h-[150px] w-full md:w-auto m-auto bg-[#132541] px-40"
           style={{
             clipPath:
-              "polygon(25% 0%, 80% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)",
+              "polygon(93% 0%, 7% 0%, 0% 50%, 7% 100%, 93% 100%, 100% 50%)",
           }}
         >
           <div className="flex md:justify-between items-center border-b md:border-b-0 md:border-r-4 border-[#2f6591] md:w-1/2 py-5">
