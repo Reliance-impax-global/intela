@@ -5,6 +5,11 @@ import solution1 from "../../../assets/images/it-solution-1.png";
 import solution2 from "../../../assets/images/it-solution-2.png";
 import solution3 from "../../../assets/images/it-solution-3.png";
 import solution4 from "../../../assets/images/it-solution-4.png";
+import partner1 from "../../../assets/images/partner1.png";
+import partner2 from "../../../assets/images/partner2.png";
+import partner3 from "../../../assets/images/partner3.png";
+import partner4 from "../../../assets/images/partner4.png";
+import partner5 from "../../../assets/images/partner5.png";
 const Deltapath = () => {
   useEffect(() => {
     AOS.init();
@@ -137,6 +142,13 @@ const Deltapath = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className=" w-3/4 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <img src={partner1} alt="Partner1" />
+        <img src={partner2} alt="Partner1" />
+        <img src={partner3} alt="Partner1" />
+        <img className="pt-6" src={partner4} alt="Partner1" />
+        <img src={partner5} alt="Partner1" />
       </div>
     </div>
   );
