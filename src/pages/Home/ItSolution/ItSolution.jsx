@@ -12,13 +12,13 @@ const ItSolution = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r from-[rgba(6,12,24,0.97)] via-[rgba(3,25,66,0.95)] to-[rgba(9,12,11,0.95)] pb-20">
+    <div className="bg-[#021D49] pb-20">
       <h2 className="text-3xl text-white font-bold mx-4 sm:mx-20 py-5">
         IT SOLUTION AND SERVICES
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-0 shadow-2xl mx-4 sm:mx-20 bg-[#132541] text-white rounded-2xl border-8 border-solid border-blue-950">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-0 shadow-2xl mx-4 sm:mx-20 bg-[#205ed14d] text-white rounded-2xl border-8 border-solid border-[#082D6C]">
         <div
-          className="card w-full sm:w-full md:w-[calc(100%-1rem)] lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-xl border-8 border-solid border-blue-950"
+          className="card w-full sm:w-full md:w-[calc(100%-1rem)] lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-2xl border-8 border-solid border-[#082D6C]"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
@@ -36,14 +36,14 @@ const ItSolution = () => {
               eos minima incidunt.
             </p>
             <div className="card-actions">
-              <button className="btn bg-[#132541] rounded-xl text-white">
+              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
                 Details
               </button>
             </div>
           </div>
         </div>
         <div
-          className="card w-full sm:w-full md:w-[calc(100%-1rem)] lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-xl border-8 border-solid border-blue-950"
+          className="card w-full sm:w-full md:w-[calc(100%-1rem)] lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-2xl border-8 border-solid border-[#082D6C]"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
@@ -61,14 +61,14 @@ const ItSolution = () => {
               eos minima incidunt.
             </p>
             <div className="card-actions">
-              <button className="btn bg-[#132541] rounded-xl text-white">
+              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
                 Details
               </button>
             </div>
           </div>
         </div>
         <div
-          className="card w-full sm:w-full md:w-[calc(100%-1rem)] lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-xl border-8 border-solid border-blue-950"
+          className="card w-full sm:w-full md:w-[calc(100%-1rem)] lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-2xl border-8 border-solid border-[#082D6C]"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
@@ -86,14 +86,14 @@ const ItSolution = () => {
               eos minima incidunt.
             </p>
             <div className="card-actions">
-              <button className="btn bg-[#132541] rounded-xl text-white">
+              <button className="btn bg-[#082D6C] outline-none  rounded-xl text-white">
                 Details
               </button>
             </div>
           </div>
         </div>
         <div
-          className="card w-full sm:w-full md:w-[calc(100%-1rem)] lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-xl border-8 border-solid border-blue-950"
+          className="card w-full sm:w-full md:w-[calc(100%-1rem)] lg:w-[calc(33.33% - 1rem)] xl:w-[calc(25% - 1rem)] shadow-2xl border-8 border-solid border-[#082D6C]"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
@@ -111,7 +111,7 @@ const ItSolution = () => {
               eos minima incidunt.
             </p>
             <div className="card-actions">
-              <button className="btn bg-[#132541] rounded-xl text-white">
+              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
                 Details
               </button>
             </div>

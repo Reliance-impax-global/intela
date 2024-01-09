@@ -3,7 +3,7 @@ import unlockLogo from "../../../assets/images/unlock-logo.png";
 
 const UnlockExclusive = () => {
   return (
-    <div className="bg-gradient-to-r from-[rgba(10,22,44,0.97)] via-[rgba(2,61,171,0.95)] to-[rgba(9,12,11,0.95)] py-10 md:py-20 text-white px-4 md:px-20">
+    <div className="bg-[#021D49] py-10 md:py-20 text-white px-4 md:px-20">
       <div className="mb-10 md:mb-20">
         <h2 className="text-2xl md:text-3xl font-bold">
           UNLOCK EXCLUSIVE DEALS WITH OUR TRUSTED PARTNERS
@@ -17,15 +17,9 @@ const UnlockExclusive = () => {
           encompass training, cybersecurity, and various IT services...
         </p>
       </div>
-      <div className="bg-white rounded-full">
-        <div
-          className="flex flex-col md:flex-row justify-center md:justify-between items-center h-[150px] w-full md:w-auto m-auto bg-[#132541] px-40"
-          style={{
-            clipPath:
-              "polygon(93% 0%, 7% 0%, 0% 50%, 7% 100%, 93% 100%, 100% 50%)",
-          }}
-        >
-          <div className="flex md:justify-between items-center border-b md:border-b-0 md:border-r-4 border-[#2f6591] md:w-1/2 py-5">
+      <div className="rounded-full">
+        <div className="flex flex-col md:flex-row justify-center md:justify-between items-center h-[150px] w-full md:w-auto m-auto bg-[#082D6C] px-40 rounded-full">
+          <div className="flex md:justify-between items-center border-b md:border-b-0 md:border-r-4 md:h-24 border-[#2f6591] md:w-1/2">
             <div className="w-1/3 h-full md:w-auto">
               <img
                 className="w-full md:w-full h-full object-cover"
@@ -33,22 +27,23 @@ const UnlockExclusive = () => {
                 alt="UnlockExclusive"
               />
             </div>
-            <div className="mt-4 md:mt-0 ml-4 md:ml-0 pr-5">
-              <button className="w-[80px] md:w-[180px] bg-yellow-500 rounded-lg">
+            <div className="mt-4 md:mt-0 ml-4 md:ml-2 md:mr-5 pr-5">
+              <button className="w-[80px] md:w-[150px] h-[45px] bg-yellow-500 rounded-lg">
                 Services
               </button>
             </div>
           </div>
+
           <div className="flex md:justify-between items-center mt-4 md:mt-0 md:w-1/2  ">
-            <div className="w-1/3 md:w-full">
+            <div className="w-1/3 md:w-full ml-2">
               <img
                 className="w-1/2 md:w-full h-full object-cover px-10"
                 src={unlockLogo}
                 alt="unlock-logo"
               />
             </div>
-            <div className="mt-4 md:mt-0 ml-4 md:ml-0">
-              <button className="w-[80px] md:w-[180px] bg-yellow-500 rounded-lg">
+            <div className="mt-4 md:mt-0 ml-4 md:ml-2 md:mr-5">
+              <button className="w-[80px] md:w-[150px] h-[45px] bg-yellow-500 rounded-lg">
                 Services
               </button>
             </div>

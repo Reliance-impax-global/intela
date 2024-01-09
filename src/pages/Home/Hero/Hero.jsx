@@ -22,8 +22,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="text-white text-center mt-4 md:mt-8 mx-4 md:mx-8 bg-[#D9D9D940] opacity-70 z-20 relative h-[80px] md:h-[100px] flex items-center">
-        <p className="text-[#BD981B] text-xs md:text-sm lg:text-base">
+      <div className="text-white text-center mt-4 md:mt-8 mx-4 md:mx-8 bg-[#9486864d] opacity-70 z-20 relative h-[80px] md:h-[100px] flex items-center">
+        <p className="text-[#f8da76] text-xs md:text-sm lg:text-base">
           WE PARTNER TOGETHER WITH DELTAPATH AND PEXIP TO EXTEND OUR VALUE AND
           BRING IN A UNIQUE QUALITY OF EXPERIENCE ACROSS UNIFIED COMMUNICATION
           PLATFORMS.

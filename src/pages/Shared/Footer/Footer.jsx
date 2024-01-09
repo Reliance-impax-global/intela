@@ -1,6 +1,6 @@
 import logo from "../../../assets/images/logo.png";
 import background from "../../../assets/images/background-image.png";
-import gradientOverlay from "../../../assets/images/baygrond.png";
+import gradientOverlay from "../../../assets/images/baygrond2.png";
 import facebook from "../../../assets/images/facebook.png";
 import twitter from "../../../assets/images/twitter-.png";
 import youtube from "../../../assets/images/youtube.png";
@@ -18,7 +18,7 @@ const Footer = () => {
         className="absolute inset-0"
         style={{
           backgroundImage: `url(${gradientOverlay})`,
-          opacity: 0.9,
+          opacity: 0.97,
         }}
       ></div>
 
@@ -27,7 +27,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between p-4 md:p-8 text-white relative z-10">
         <div className="w-full md:w-80 mb-8 md:mb-0">
           <img
-            className="w-32 h-8 md:w-44 md:h-11 my-4 md:my-8 z-50"
+            className="w-40 h-10 md:w-44 md:h-11 my-4 md:my-8 z-50"
             src={logo}
             alt="Logo"
           />

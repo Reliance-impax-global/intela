@@ -2,7 +2,7 @@ import whoWeAre from "../../../assets/images/who-we-are.png";
 
 const WhoWeAre = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-20 py-8 md:py-12 bg-gradient-to-r from-[rgba(10,22,44,0.97)] via-[rgba(2,61,171,0.95)] to-[rgba(9,12,11,0.95)] text-white">
+    <div className="px-4 md:px-8 lg:px-20 py-8 md:py-12 bg-[#021D49] text-white">
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-left mb-4 md:mb-6 text-white">
         WHO WE ARE
       </h2>
