@@ -4,8 +4,8 @@ import unlockExclusive from "../../../assets/images/mobile 1.png";
 const PartnerBanner = () => {
   return (
     <>
-      <div className="mx-4 md:mx-8 lg:mx-20 shadow-2xl">
-        <div className="flex flex-col md:flex-row items-center justify-center mb-10">
+      <div className="mx-4 md:mx-8 lg:mx-20">
+        <div className="flex flex-col md:flex-row items-center justify-center my-10">
           <img
             src={unlockExclusive}
             alt=""
@@ -14,7 +14,7 @@ const PartnerBanner = () => {
           />
         </div>
         <h2
-          className="text-left text-sm md:text-2xl lg:text-3xl mb-10 pl-5"
+          className="text-left text-sm md:text-2xl lg:text-3xl mb-10 pl-5 pb-10"
           style={{ fontFamily: "Antic", fontWeight: 400 }}
         >
           OUR TRUSTED SERVICE PROVIDER FOR COMPREHENSIVE IT SOLUTION
