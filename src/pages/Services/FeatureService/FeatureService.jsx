@@ -8,7 +8,7 @@ import service7 from "../../../assets/services/service7.jpg";
 import service8 from "../../../assets/services/subtitles 1.png";
 const FeatureService = () => {
   return (
-    <div className="px-4 py-16 mx-4 md:mx-8 lg:mx-20 backdrop:sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-[#091424] text-white shadow-2xl rounded-2xl">
+    <div className="px-4 py-16 mx-4 md:mx-8 lg:mx-20 backdrop:sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-[#082C6B] text-white shadow-2xl rounded-2xl">
       <div className="grid gap-8 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-3">
         <div>
           <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-bounce">

@@ -1,7 +1,7 @@
 const ExclusiveValue = () => {
   return (
-    <div className="bg-[#07121C] p-5 text-white">
-      <div className="text-justify py-10 px-4 md:px-8 lg:px-20 bg-[#091424] text-white shadow-2xl rounded-2xl">
+    <div className="bg-[#021D49] p-5 text-white">
+      <div className="text-justify py-10 px-4 md:px-8 lg:px-20 bg-[#082C6B] text-white shadow-2xl rounded-2xl">
         <h2 className="text-xl md:text-xl lg:text-2xl font-bold pb-5">
           INTELA SOLUTION, AN EXCLUSIVE VALUED ADDED DISTRIBUTOR OF{" "}
           <span className="text-3xl">DELTAPATH</span>

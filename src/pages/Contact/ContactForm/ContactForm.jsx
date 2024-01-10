@@ -4,9 +4,9 @@ import envelope from "../../../assets/contact/envelope 1.png";
 
 const ContactForm = () => {
   return (
-    <div className="bg-[#091424] text-white p-20">
+    <div className="bg-[#021D4A] text-white p-20">
       <div className="md:flex md:justify-around">
-        <div className="sm:w-full md:w-1/3 lg:w-1/3 bg-[#161d31f8] rounded-lg mb-8 md:mb-0">
+        <div className="sm:w-full md:w-1/3 lg:w-1/3 bg-[#082C6B] rounded-lg mb-8 md:mb-0">
           <h2 className="mb-5 mt-10 pt-2 text-xl font-bold ml-10">
             Get in touch
           </h2>
@@ -40,7 +40,7 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
-        <div className="sm:w-full md:w-1/3 lg:w-1/3 bg-[#161d31f8] rounded-lg">
+        <div className="sm:w-full md:w-1/3 lg:w-1/3 bg-[#082C6B] rounded-lg">
           <h2 className="mb-5 mt-10 text-xl font-bold ml-10">
             HOW WE CAN ASSIST YOU{" "}
           </h2>

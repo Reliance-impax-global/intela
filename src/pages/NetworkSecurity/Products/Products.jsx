@@ -8,8 +8,8 @@ const Products = () => {
     Aos.init();
   }, []);
   return (
-    <div className="bg-[#091424] py-5">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-28 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-full px-20  md:py-10 bg-[#091424] text-white rounded-2xl shadow-2xl">
+    <div className="bg-[#082C6B] py-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-28 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-full px-20  md:py-10 bg-[#082C6B] text-white rounded-2xl shadow-2xl">
         <div
           className="card w-full shadow-2xl"
           data-aos="flip-left"
@@ -26,7 +26,7 @@ const Products = () => {
               software-based offering.
             </p>
             <div className="card-actions justify-start">
-              <button className="btn bg-[#D9D9D91A] text-white">
+              <button className="btn bg-[#082C6B] text-white">
                 Learn more
               </button>
             </div>
@@ -47,7 +47,7 @@ const Products = () => {
               vulnerabilities like SQL Injection, XSS, and CSRF.
             </p>
             <div className="card-actions justify-start">
-              <button className="btn bg-[#D9D9D91A] text-white">
+              <button className="btn bg-[#082C6B] text-white">
                 Learn more
               </button>
             </div>
@@ -69,7 +69,7 @@ const Products = () => {
               from sophisticated internet
             </p>
             <div className="card-actions justify-start">
-              <button className="btn bg-[#D9D9D91A] text-white">
+              <button className="btn bg-[#082C6B] text-white">
                 Learn more
               </button>
             </div>

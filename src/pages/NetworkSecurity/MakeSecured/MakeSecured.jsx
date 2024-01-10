@@ -1,6 +1,6 @@
 const MakeSecured = () => {
   return (
-    <div className="text-justify py-10 px-4 md:px-8 lg:px-20 bg-[#091424] text-white shadow-2xl">
+    <div className="text-justify py-10 px-4 md:px-8 lg:px-20 bg-[#021D4A] text-white shadow-2xl">
       <div>
         <h2 className="text-xl md:text-xl lg:text-2xl font-bold pb-5">
           MAKE A SECURED NETWORK AND INFRASTUCTURE

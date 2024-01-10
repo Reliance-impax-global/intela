@@ -17,11 +17,11 @@ const Blog = () => {
       <Helmet>
         <title>Intela ~ Blog</title>
       </Helmet>
-      <div className="bg-[#06111B] py-10">
-        <div className="px-5 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-24 pt-10 md:py-28 bg-[#091424] text-white rounded-2xl shadow-2xl">
+      <div className="bg-[#021D4A] py-10">
+        <div className="px-5 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-24 pt-10 md:py-28 bg-[#082C6B] text-white rounded-2xl shadow-2xl">
           <div className="grid gap-20 md:grid-cols-2 sm:max-w-sm sm:mx-auto md:max-w-full">
             <div
-              className="overflow-hidden transition-shadow duration-300 bg-[#091424] rounded shadow-sm"
+              className="overflow-hidden transition-shadow duration-300 bg-[#082C6B] rounded shadow-sm"
               data-aos="flip-left"
               data-aos-duration="3000"
             >
@@ -54,7 +54,7 @@ const Blog = () => {
               </div>
             </div>
             <div
-              className="overflow-hidden transition-shadow duration-300 bg-[#091424] rounded shadow-sm"
+              className="overflow-hidden transition-shadow duration-300 bg-[#082C6B] rounded shadow-sm"
               data-aos="flip-left"
               data-aos-duration="3000"
             >
@@ -87,7 +87,7 @@ const Blog = () => {
               </div>
             </div>
             <div
-              className="overflow-hidden transition-shadow duration-300 bg-[#091424] rounded shadow-sm"
+              className="overflow-hidden transition-shadow duration-300 bg-[#082C6B] rounded shadow-sm"
               data-aos="flip-left"
               data-aos-duration="3000"
             >
@@ -116,7 +116,7 @@ const Blog = () => {
               </div>
             </div>
             <div
-              className="overflow-hidden transition-shadow duration-300 bg-[#091424] rounded shadow-sm"
+              className="overflow-hidden transition-shadow duration-300 bg-[#082C6B] rounded shadow-sm"
               data-aos="flip-left"
               data-aos-duration="3000"
             >
@@ -145,7 +145,7 @@ const Blog = () => {
               </div>
             </div>
             <div
-              className="overflow-hidden transition-shadow duration-300 bg-[#091424] rounded shadow-sm"
+              className="overflow-hidden transition-shadow duration-300 bg-[#082C6B] rounded shadow-sm"
               data-aos="flip-left"
               data-aos-duration="3000"
             >
@@ -175,7 +175,7 @@ const Blog = () => {
               </div>
             </div>
             <div
-              className="overflow-hidden transition-shadow duration-300 bg-[#091424] rounded shadow-sm"
+              className="overflow-hidden transition-shadow duration-300 bg-[#082C6B] rounded shadow-sm"
               data-aos="flip-left"
               data-aos-duration="3000"
             >

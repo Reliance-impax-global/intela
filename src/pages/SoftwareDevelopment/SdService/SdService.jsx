@@ -1,9 +1,9 @@
 import sdService1 from "../../../assets/services/coding 1.png";
 const SdService = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-full md:max-w-full lg:max-w-full md:px-14 lg:px-8 lg:py-20 bg-[#060F18]">
+    <div className="px-4 py-16 mx-auto sm:max-w-full md:max-w-full lg:max-w-full md:px-14 lg:px-8 lg:py-20 bg-[#021D4A]">
       <div className="grid max-w-screen-lg gap-8 row-gap-10 mx-auto lg:grid-cols-1">
-        <div className="flex flex-col max-w-full sm:mx-auto sm:flex-row bg-[#091424] text-white p-10 rounded-2xl">
+        <div className="flex flex-col max-w-full sm:mx-auto sm:flex-row bg-[#082C6B] text-white p-10 rounded-2xl">
           <div className="mr-4">
             <div className="flex items-center justify-center w-12 h-12 rounded-full bg-yellow-500 animate-bounce">
               <img
@@ -40,7 +40,7 @@ const SdService = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col max-w-full sm:mx-auto sm:flex-row bg-[#091424] text-white p-10 rounded-2xl">
+        <div className="flex flex-col max-w-full sm:mx-auto sm:flex-row bg-[#082C6B] text-white p-10 rounded-2xl">
           <div className="mr-4">
             <div className="flex items-center justify-center w-12 h-12 rounded-full mb-4 bg-yellow-500 animate-bounce">
               <img
@@ -78,7 +78,7 @@ const SdService = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col w-full sm:mx-auto sm:flex-row bg-[#091424] text-white p-10 rounded-2xl">
+        <div className="flex flex-col w-full sm:mx-auto sm:flex-row bg-[#082C6B] text-white p-10 rounded-2xl">
           <div className="mr-4">
             <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-yellow-500 animate-bounce">
               <img

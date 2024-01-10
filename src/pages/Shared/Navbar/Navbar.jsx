@@ -47,6 +47,9 @@ const Navbar = () => {
                 <Link to="services">SERVICES</Link>
                 <ul className="p-2">
                   <li>
+                    <Link to="/partner-services">PARTNER SERVICES</Link>
+                  </li>
+                  <li>
                     <Link to="/software-development">SOFTWARE DEVELOPMENT</Link>
                   </li>
                   <li>
@@ -106,6 +109,9 @@ const Navbar = () => {
                   <Link to="/services">SERVICES</Link>
                 </summary>
                 <ul className="p-2 bg-[#132A50]">
+                  <li>
+                    <Link to="/partner-services">PARTNER SERVICES</Link>
+                  </li>
                   <li>
                     <Link to="/software-development">SOFTWARE DEVELOPMENT</Link>
                   </li>

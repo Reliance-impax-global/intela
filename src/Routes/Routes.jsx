@@ -15,6 +15,7 @@ import SoftwareDevelopment from "../pages/SoftwareDevelopment/SoftwareDevelopmen
 import WebDevelopment from "../pages/WebDevelopment/WebDevelopment";
 import UiUxDesign from "../pages/UiUxDesign/UiUxDesign";
 import WebHostingSecurity from "../pages/WebHostingSecurity/WebHostingSecurity";
+import PartnerServices from "../pages/PartnerServices/PartnerServices";
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       {
         path: "services",
         element: <Services />,
+      },
+      {
+        path: "partner-services",
+        element: <PartnerServices />,
       },
       {
         path: "software-development",

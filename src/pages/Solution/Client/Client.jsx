@@ -2,7 +2,7 @@ import client from "../../../assets/solution/client.png";
 
 const Client = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-around text-justify py-10 px-4 md:px-8 lg:px-20 bg-[#091424] text-white shadow-2xl">
+    <div className="flex flex-col-reverse md:flex-row justify-around text-justify py-10 px-4 md:px-8 lg:px-20 bg-[#021D49] text-white shadow-2xl">
       <div className="w-full md:w-1/2 md:pr-4 lg:pr-10">
         <h2 className="text-xl md:text-xl lg:text-xl font-bold pb-5">
           CLIENTS

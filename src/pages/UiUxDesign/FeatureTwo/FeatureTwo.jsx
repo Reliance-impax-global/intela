@@ -7,8 +7,8 @@ import uiuxFeature26 from "../../../assets/uiux-design/ux-design 1.png";
 
 const FeatureTwo = () => {
   return (
-    <div className="bg-[#07121C] py-5">
-      <div className="px-4 md:px-8 lg:px-20 mx-auto backdrop:sm:max-w-xl md:max-w-full lg:max-w-screen-xl py-10 lg:py-20 bg-[#091424] text-white shadow-2xl rounded-2xl">
+    <div className="bg-[#021D4A] py-5">
+      <div className="px-4 md:px-8 lg:px-20 mx-auto backdrop:sm:max-w-xl md:max-w-full lg:max-w-screen-xl py-10 lg:py-20 bg-[#082C6B] text-white shadow-2xl rounded-2xl">
         <div className="grid gap-8 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div>
             <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-yellow-500 animate-bounce">
