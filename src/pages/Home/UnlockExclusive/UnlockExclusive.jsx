@@ -18,32 +18,32 @@ const UnlockExclusive = () => {
         </p>
       </div>
       <div className="rounded-full">
-        <div className="flex flex-col md:flex-row justify-center md:justify-between items-center h-[150px] w-full md:w-auto m-auto bg-[#082D6C] px-40 rounded-full">
-          <div className="flex md:justify-between items-center border-b md:border-b-0 md:border-r-4 md:h-24 border-[#2f6591] md:w-1/2">
-            <div className="w-1/3 h-full md:w-auto">
+        <div className="flex flex-col md:flex-row justify-center md:justify-between items-center h-[190px] w-full  m-auto bg-[#082D6C] px-40 rounded-full">
+          <div className="flex sm:justify-between md:justify-around  items-center border-b md:border-b-0 md:border-r-4 md:h-24 border-[#2f6591] w-full md:w-1/2 sm:my-2">
+            <div className="w-1/3 h-full md:w-auto sm:mt-7">
               <img
-                className="w-full md:w-full h-full object-cover"
+                className="w-full md:w-[120px] h-[90px] object-cover md:mb-20"
                 src={unlockExclusive}
                 alt="UnlockExclusive"
               />
             </div>
             <div className="mt-4 md:mt-0 ml-4 md:ml-2 md:mr-5 pr-5">
-              <button className="w-[80px] md:w-[150px] h-[45px] bg-yellow-500 rounded-lg">
+              <button className="w-[60px] md:w-[100px] h-[50px] bg-yellow-500 rounded-lg">
                 Services
               </button>
             </div>
           </div>
 
-          <div className="flex md:justify-between items-center mt-4 md:mt-0 md:w-1/2  ">
-            <div className="w-1/3 md:w-full ml-2">
+          <div className="flex md:justify-between sm:justify-center items-center md:mt-0 w-full md:w-1/2  ">
+            <div className="w-2/3 md:w-2/3 h-full  sm:pb-5">
               <img
-                className="w-1/2 md:w-full h-full object-cover px-10"
+                className="w-[200px] md:w-[262px]  sm:h-[40px] md:h-full object-cover sm:mt-2  md:p-10"
                 src={unlockLogo}
                 alt="unlock-logo"
               />
             </div>
-            <div className="mt-4 md:mt-0 ml-4 md:ml-2 md:mr-5">
-              <button className="w-[80px] md:w-[150px] h-[45px] bg-yellow-500 rounded-lg">
+            <div className="mt-4 md:mt-0 ml-4  md:mr-5 sm:mb-6">
+              <button className="w-[60px] md:w-[100px] h-[50px] bg-yellow-500 rounded-lg">
                 Services
               </button>
             </div>
