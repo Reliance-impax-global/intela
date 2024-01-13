@@ -22,8 +22,8 @@ const Footer = () => {
         }}
       ></div>
 
+      <hr className="border-t-2 border-white my-4" />
       <p className="text-center text-white z-20 relative">Reach to Us</p>
-      <hr />
       <div className="flex flex-col md:flex-row justify-between p-4 md:p-8 text-white relative z-10">
         <div className="w-full md:w-80 mb-8 md:mb-0">
           <img
@@ -75,7 +75,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <hr />
+      <hr className="border-t-2 border-white my-4" />
       <p className="text-center text-white z-20 relative text-sm md:text-base">
         © 2023 INTELA. All rights reserved | Developed by Nizam.
       </p>

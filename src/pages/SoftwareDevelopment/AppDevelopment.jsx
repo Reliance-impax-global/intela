@@ -1,11 +1,13 @@
 import { Helmet } from "react-helmet-async";
 import background from "../../assets/services/banner-background.png";
 import gradientOverlay from "../../assets/images/baygrond.png";
-import SdBanner from "./SdBanner/SdBanner";
-import SdText from "./SdText/SdText";
-import SdService from "./SdService/SdService";
+import AdBanner from "./AdBanner/AdBanner";
+import AdFeature1 from "./AdFeature1/AdFeature1";
+import AdFeature2 from "./AdFeature2/AdFeature2";
+import AdFeature3 from "./AdFeature3/AdFeature3";
+import AdFeature4 from "./AdFeature4/AdFeature4";
 
-const SoftwareDevelopment = () => {
+const AppDevelopment = () => {
   return (
     <div>
       <Helmet>
@@ -26,14 +28,16 @@ const SoftwareDevelopment = () => {
           }}
         >
           <div className="text-white text-center">
-            <SdBanner />
+            <AdBanner />
           </div>
         </div>
       </div>
-      <SdText />
-      <SdService />
+      <AdFeature1 />
+      <AdFeature2 />
+      <AdFeature3 />
+      <AdFeature4 />
     </div>
   );
 };
 
-export default SoftwareDevelopment;
+export default AppDevelopment;

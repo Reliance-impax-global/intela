@@ -11,11 +11,11 @@ import UnifiedCommunication from "../pages/UnifiedCommunication/UnifiedCommunica
 import NetworkSecurity from "../pages/NetworkSecurity/NetworkSecurity/NetworkSecurity";
 import Application from "../pages/Application/Application/Application";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
-import SoftwareDevelopment from "../pages/SoftwareDevelopment/SoftwareDevelopment";
 import WebDevelopment from "../pages/WebDevelopment/WebDevelopment";
 import UiUxDesign from "../pages/UiUxDesign/UiUxDesign";
 import WebHostingSecurity from "../pages/WebHostingSecurity/WebHostingSecurity";
 import PartnerServices from "../pages/PartnerServices/PartnerServices";
+import AppDevelopment from "../pages/SoftwareDevelopment/AppDevelopment";
 
 export const router = createBrowserRouter([
   {
@@ -36,8 +36,8 @@ export const router = createBrowserRouter([
         element: <PartnerServices />,
       },
       {
-        path: "software-development",
-        element: <SoftwareDevelopment />,
+        path: "app-development",
+        element: <AppDevelopment />,
       },
       {
         path: "web-development",

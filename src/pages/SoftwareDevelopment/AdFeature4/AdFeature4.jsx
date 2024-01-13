@@ -1,0 +1,46 @@
+import adFImg4 from "../../../assets/services/AdFeature4.png";
+
+const AdFeature4 = () => {
+  return (
+    <div className="bg-[#011C49] pb-8">
+      <div className="relative bg-[#072966] mx-4 md:mx-8 lg:mx-20 mb-5 rounded-2xl">
+        <div className="flex flex-col md:flex-row justify-center items-center h-full">
+          <div className="w-full md:w-1/2 mx-10 md:mx-10 my-10">
+            <img
+              src={adFImg4}
+              alt="App Development Feature image 1"
+              className="w-11/12 h-full object-cover"
+            />
+          </div>
+          <div className="w-full md:w-1/3 text-white text-left mx-4 sm:px-5 md:mx-10">
+            <h2 className="text-xl md:text-2xl lg:text-3xl  mb-3 md:mb-5">
+              Cross Platform App Development
+            </h2>
+            <p
+              className="text-sm md:text-base lg:text-lg pt-5 mb-5"
+              style={{ fontFamily: "Roboto" }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium id, accusamus, mollitia eligendi consequatur magnam
+              ipsam aliquid non dolores ad at voluptatibus dolorum vel,
+              asperiores..
+            </p>
+            <a className="text-[#BD981B] py-5 underline" href="">
+              View More
+            </a>
+            <br />
+            <br />
+            <a
+              className="btn bg-[#BD981B] w-full md:w-[180px] mr-0 md:mr-4 mb-2 md:mb-0 font-inter text-25 font-medium"
+              style={{ fontFamily: "Inter", fontWeight: 500 }}
+            >
+              Discuss a Project with Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AdFeature4;
