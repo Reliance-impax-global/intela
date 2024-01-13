@@ -15,15 +15,15 @@ const AdBanner = () => {
         </div>
         <div className=" text-center">
           <h2
-            className=" md:text-3xl"
+            className=" md:text-3xl pb-6"
             style={{ fontFamily: "Roboto", fontWeight: 500 }}
           >
             APP DEVELOPMENT
           </h2>
-          <p className="text-center">
+          <p className="text-center py-3">
             VIRTUAL WORKPLACE AND CUTTING EDGE TECHNOLOGY ALLOW OUR CLIENT TO
-            WORK MORE PRODUCTIVELY FROM ANY PLACE SECURELY FROM ANY PLATFORM
-            GLOBALLY.
+            WORK MORE PRODUCTIVELY FROM ANY <br />
+            PLACE SECURELY FROM ANY PLATFORM GLOBALLY.
           </p>
         </div>
       </div>
@@ -48,7 +48,7 @@ const AdBanner = () => {
               our experienced team of developers will help you create the
               perfect solution for your business
             </p>
-            <div className="flex  md:flex-row">
+            <div className="flex  md:flex-row ">
               <a className="btn bg-[#BD981B] w-1/2 md:w-[150px] mr-0 md:mr-4 mb-2 md:mb-0">
                 Request a demo
               </a>

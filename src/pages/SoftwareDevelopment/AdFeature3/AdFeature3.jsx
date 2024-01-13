@@ -6,20 +6,20 @@ const AdFeature3 = () => {
       <div className="relative bg-[#072966] mx-4 md:mx-8 lg:mx-20 mb-5 rounded-2xl">
         <div className="flex flex-col md:flex-row justify-center items-center h-full">
           <div className="w-full md:w-1/2 mx-10 md:mx-10 my-10">
-            <div className="pl-8  bg-[#011C49]">
+            <div className="pl-8  bg-[#011b4970]">
               <img
                 src={adImg3}
                 alt="App Development Feature image 3"
-                className="w-full h-full object-cover pt-5"
+                className="w-full h-full object-cover pt-6"
               />
             </div>
           </div>
-          <div className="w-full md:w-1/4 text-white text-left mx-4 md:mx-10 sm:px-5">
+          <div className="w-full md:w-1/3 text-white text-left mx-4 md:mx-10 sm:px-5">
             <h2 className="text-xl md:text-2xl lg:text-3xl  mb-3 md:mb-5">
               IOS App Development
             </h2>
             <p
-              className="text-sm md:text-base lg:text-lg pt-5 mb-5"
+              className="text-sm md:text-base lg:text-lg pt-7 mb-5"
               style={{ fontFamily: "Roboto" }}
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

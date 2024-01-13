@@ -5,19 +5,12 @@ const AdFeature4 = () => {
     <div className="bg-[#011C49] pb-8">
       <div className="relative bg-[#072966] mx-4 md:mx-8 lg:mx-20 mb-5 rounded-2xl">
         <div className="flex flex-col md:flex-row justify-center items-center h-full">
-          <div className="w-full md:w-1/2 mx-10 md:mx-10 my-10">
-            <img
-              src={adFImg4}
-              alt="App Development Feature image 1"
-              className="w-11/12 h-full object-cover"
-            />
-          </div>
           <div className="w-full md:w-1/3 text-white text-left mx-4 sm:px-5 md:mx-10">
             <h2 className="text-xl md:text-2xl lg:text-3xl  mb-3 md:mb-5">
               Cross Platform App Development
             </h2>
             <p
-              className="text-sm md:text-base lg:text-lg pt-5 mb-5"
+              className="text-sm md:text-base lg:text-lg pt-7 mb-5"
               style={{ fontFamily: "Roboto" }}
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -36,6 +29,13 @@ const AdFeature4 = () => {
             >
               Discuss a Project with Us
             </a>
+          </div>
+          <div className="w-full md:w-1/2 mx-10 md:mx-10 my-10 pl-8  bg-[#011b4970]">
+            <img
+              src={adFImg4}
+              alt="App Development Feature image 1"
+              className="w-full h-full object-cover pt-6"
+            />
           </div>
         </div>
       </div>
