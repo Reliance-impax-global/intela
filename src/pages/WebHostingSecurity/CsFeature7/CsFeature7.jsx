@@ -36,7 +36,7 @@ const CsFeature7 = () => {
               className="btn bg-[#BD981B] w-full md:w-[180px] mr-0 md:mr-4 mb-2 md:mb-0 font-inter text-25 font-medium"
               style={{ fontFamily: "Inter", fontWeight: 500 }}
             >
-              Book a consultation
+              Discuss a Project with Us
             </a>
           </div>
         </div>

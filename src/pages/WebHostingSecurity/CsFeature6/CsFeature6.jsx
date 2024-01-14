@@ -24,7 +24,7 @@ const CsFeature6 = () => {
             <br />
             <br />
             <a className="btn bg-[#BD981B] w-full md:w-[195px] mr-0 md:mr-4 mb-2 md:mb-0 font-inter text-25 font-medium">
-              Book a consultation
+              Discuss a Project with Us
             </a>
           </div>
           <div className="w-full md:w-1/2 mx-10 md:mx-10 my-10">
