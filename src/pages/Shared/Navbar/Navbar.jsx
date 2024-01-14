@@ -59,7 +59,7 @@ const Navbar = () => {
                     <Link to="/ui-ux-design">UI & UX DESIGN</Link>
                   </li>
                   <li>
-                    <Link to="/web-hosting-security">WEB HOSTING SECURITY</Link>
+                    <Link to="/cyber-security">CYBER SECURITY</Link>
                   </li>
                 </ul>
               </li>
@@ -122,7 +122,7 @@ const Navbar = () => {
                     <Link to="/ui-ux-design">UI & UX DESIGN</Link>
                   </li>
                   <li>
-                    <Link to="/web-hosting-security">WEB HOSTING SECURITY</Link>
+                    <Link to="/cyber-security">CYBER SECURITY</Link>
                   </li>
                 </ul>
               </details>

@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="border-t-2 border-white my-4" />
-      <p className="text-center text-white z-20 relative text-sm md:text-base">
+      <p className="text-center text-white z-20 relative text-sm md:text-base pb-5">
         © 2023 INTELA. All rights reserved | Developed by Nizam.
       </p>
     </div>

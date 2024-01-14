@@ -13,7 +13,7 @@ import Application from "../pages/Application/Application/Application";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import WebDevelopment from "../pages/WebDevelopment/WebDevelopment";
 import UiUxDesign from "../pages/UiUxDesign/UiUxDesign";
-import WebHostingSecurity from "../pages/WebHostingSecurity/WebHostingSecurity";
+import CyberSecurity from "../pages/WebHostingSecurity/CyberSecurity";
 import PartnerServices from "../pages/PartnerServices/PartnerServices";
 import AppDevelopment from "../pages/SoftwareDevelopment/AppDevelopment";
 
@@ -48,8 +48,8 @@ export const router = createBrowserRouter([
         element: <UiUxDesign />,
       },
       {
-        path: "web-hosting-security",
-        element: <WebHostingSecurity />,
+        path: "cyber-security",
+        element: <CyberSecurity />,
       },
       {
         path: "solution",
