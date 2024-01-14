@@ -18,7 +18,7 @@ const CsBanner = () => {
             className=" md:text-3xl pb-6"
             style={{ fontFamily: "Roboto", fontWeight: 500 }}
           >
-            Cyber Security Services
+            CYBER SECURITY SERVICES
           </h2>
           <p className="text-center py-3">
             VIRTUAL WORKPLACE AND CUTTING EDGE TECHNOLOGY ALLOW OUR CLIENT TO
