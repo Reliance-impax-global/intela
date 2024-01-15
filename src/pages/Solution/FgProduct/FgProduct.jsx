@@ -15,7 +15,7 @@ const FgProduct = () => {
       >
         OUR FLAGSHIP PRODUCT
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-5 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-full px-20  md:py-10 rounded-2xl shadow-2xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-5 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-full px-20  md:py-10 rounded-2xl shadow-2xl">
         <div
           className="card w-full pt-5 shadow-2xl bg-[#082C6B]"
           data-aos="flip-left"
