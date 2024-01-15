@@ -6,12 +6,15 @@ import ExclusiveValue from "../ExclusiveValue/ExclusiveValue";
 import MicroTeam from "../MicroTeam/MicroTeam";
 import FeatureSolution from "../FeatureSolution/FeatureSolution";
 import Client from "../Client/Client";
+import FgProduct from "../../Solution/FgProduct/FgProduct";
+import Articles from "../../Solution/Articles/Articles";
+import TrCompanies from "../../Solution/TrCompanies/TrCompanies";
 
 const UnifiedCommunication = () => {
   return (
     <div>
       <Helmet>
-        <title>Intela ~ Solution ~ Unified Communication</title>
+        <title>Intela ~ Unified Communication</title>
       </Helmet>
       <div
         className="relative bg-cover h-screen"
@@ -33,7 +36,10 @@ const UnifiedCommunication = () => {
         </div>
       </div>
       <ExclusiveValue />
+      <FgProduct />
       <MicroTeam />
+      <Articles />
+      <TrCompanies />
       <FeatureSolution />
       <Client />
     </div>

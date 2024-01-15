@@ -8,7 +8,7 @@ const FgProduct = () => {
     Aos.init();
   }, []);
   return (
-    <div className="bg-[#021D4A] text-white">
+    <div className="bg-[#021D4A] text-white pt-5">
       <h2
         className="text-center text-xl Md:text-2xl lg:text-3xl"
         style={{ fontFamily: "Antic", fontWeight: 400 }}
