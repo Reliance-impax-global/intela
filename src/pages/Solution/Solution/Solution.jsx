@@ -7,6 +7,8 @@ import MicroTeam from "../MicroTeam/MicroTeam";
 import FeatureSolution from "../FeatureSolution/FeatureSolution";
 import Client from "../Client/Client";
 import FgProduct from "../FgProduct/FgProduct";
+import Articles from "../Articles/Articles";
+import TrCompanies from "../TrCompanies/TrCompanies";
 
 const Solution = () => {
   return (
@@ -36,6 +38,8 @@ const Solution = () => {
       <ExclusiveValue />
       <FgProduct />
       <MicroTeam />
+      <Articles />
+      <TrCompanies />
       <FeatureSolution />
       <Client />
     </div>

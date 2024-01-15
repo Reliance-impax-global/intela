@@ -2,7 +2,7 @@ import microTeam from "../../../assets/solution/micro-team.png";
 
 const MicroTeam = () => {
   return (
-    <div className="bg-[#021D4A] p-5">
+    <div className="bg-[#021D4A] px-20">
       <div className="flex flex-col-reverse md:flex-row justify-around text-justify py-10 px-4 md:px-8 lg:px-20 bg-[#082C6B] text-white shadow-2xl rounded-2xl">
         <div className="w-full md:w-1/2 md:pr-4 lg:pr-10">
           <h2 className="text-xl md:text-xl lg:text-xl font-bold pb-5">
