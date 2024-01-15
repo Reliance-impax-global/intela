@@ -6,6 +6,7 @@ import ExclusiveValue from "../ExclusiveValue/ExclusiveValue";
 import MicroTeam from "../MicroTeam/MicroTeam";
 import FeatureSolution from "../FeatureSolution/FeatureSolution";
 import Client from "../Client/Client";
+import FgProduct from "../FgProduct/FgProduct";
 
 const Solution = () => {
   return (
@@ -33,6 +34,7 @@ const Solution = () => {
         </div>
       </div>
       <ExclusiveValue />
+      <FgProduct />
       <MicroTeam />
       <FeatureSolution />
       <Client />

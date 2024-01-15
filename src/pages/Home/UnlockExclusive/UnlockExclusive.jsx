@@ -38,7 +38,7 @@ const UnlockExclusive = () => {
           <div className="flex md:flex-row justify-between sm:justify-center items-center md:mt-2 w-2/3 md:w-1/2">
             <div className="max-w-full md:max-w-2/3 h-full sm:pb-2 md:pb-5">
               <img
-                className="w-[100%] md:w-[262px] sm:h-[50px] md:h-full object-cover sm:pt-2 md:p-5"
+                className="w-[100%] md:w-[250px] lg:w-[262px] sm:h-[50px] md:h-full object-cover sm:pt-2 md:p-5"
                 src={unlockLogo}
                 alt="unlock-logo"
               />
