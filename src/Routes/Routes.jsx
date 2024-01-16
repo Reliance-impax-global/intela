@@ -16,6 +16,7 @@ import UiUxDesign from "../pages/UiUxDesign/UiUxDesign";
 import CyberSecurity from "../pages/WebHostingSecurity/CyberSecurity";
 import PartnerServices from "../pages/PartnerServices/PartnerServices";
 import AppDevelopment from "../pages/SoftwareDevelopment/AppDevelopment";
+import BlogDeltapath from "../pages/Blog/BlogDeltapath/BlogDeltapath";
 
 export const router = createBrowserRouter([
   {
@@ -58,6 +59,10 @@ export const router = createBrowserRouter([
       {
         path: "blog",
         element: <Blog />,
+      },
+      {
+        path: "blog-deltapath",
+        element: <BlogDeltapath />,
       },
       {
         path: "about",

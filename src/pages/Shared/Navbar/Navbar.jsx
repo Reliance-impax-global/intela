@@ -79,8 +79,13 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
-              <li>
-                <Link to="/blog">BLOGS</Link>
+              <li className="bg-[#132A50]">
+                <Link to="blog">Blog</Link>
+                <ul className="p-2">
+                  <li>
+                    <Link to="/blog-deltapath">Blog For Deltapath</Link>
+                  </li>
+                </ul>
               </li>
               <li>
                 <Link to="/about">ABOUT</Link>
@@ -148,7 +153,16 @@ const Navbar = () => {
               </details>
             </li>
             <li>
-              <Link to="/blog">BLOGS</Link>
+              <details className="z-40">
+                <summary>
+                  <Link to="/blog">Blog</Link>
+                </summary>
+                <ul className="p-2 bg-[#132A50]">
+                  <li>
+                    <Link to="/blog-deltapath">Blog For Deltapath</Link>
+                  </li>
+                </ul>
+              </details>
             </li>
             <li>
               <Link to="/about">ABOUT</Link>
