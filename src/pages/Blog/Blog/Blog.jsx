@@ -2,11 +2,12 @@ import { Helmet } from "react-helmet-async";
 import blogImg1 from "../../../assets/blogs/blogImg1.png";
 import blogImg2 from "../../../assets/blogs/blogImg2.png";
 import blogImg3 from "../../../assets/blogs/blogImg3.png";
-import blogImg4 from "../../../assets/blogs/blogImg4.png";
+import blogImg4 from "../../../assets/images/network-banner.png";
 import blogImg5 from "../../../assets/blogs/blogImg5.png";
 import blogImg6 from "../../../assets/blogs/blogImg6.png";
 import { useEffect } from "react";
 import Aos from "aos";
+import BlogBanner from "../BlogBanner/BlogBanner";
 
 const Blog = () => {
   useEffect(() => {
@@ -18,10 +19,11 @@ const Blog = () => {
         <title>Intela ~ Blog</title>
       </Helmet>
       <div className="bg-[#021D4A] py-10">
-        <div className="px-5 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-24 pt-10 md:py-28 bg-[#082C6B] text-white rounded-2xl shadow-2xl">
+        <BlogBanner />
+        <div className="px-5 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-28 lg:px-0 pt-10 md:py-28 text-white rounded-2xl shadow-2xl">
           <div className="grid gap-20 md:grid-cols-2 sm:max-w-sm sm:mx-auto md:max-w-full">
             <div
-              className="overflow-hidden transition-shadow duration-300 bg-[#082C6B] rounded shadow-sm"
+              className="overflow-hidden transition-shadow duration-300 p-5 bg-[#082C6B] rounded shadow-sm"
               data-aos="flip-left"
               data-aos-duration="3000"
             >
@@ -35,14 +37,22 @@ const Blog = () => {
                   href="/"
                   aria-label="Category"
                   title="Visit the East"
-                  className="inline-block mb-3 text-2xl font-bold transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  className="inline-block mb-3 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  style={{
+                    fontFamily: "Antic",
+                    fontWeight: 400,
+                    fontSize: "24px",
+                  }}
                 >
-                  HOW WEBRTC CAN BE BENEFITED TO ORGANISATION
+                  THE LATEST CYBERSECURITY THREATS TO WATCH
                 </a>
-                <p className="mb-2 text-white">
-                  Throughout the course of recent years, WebRTC innovation has
-                  acquired a great deal of prominence. WebRTC or Web Real-Time
-                  Communication is an open-source venture and
+                <p
+                  className="mb-2 text-white"
+                  style={{ fontFamily: "Inter", fontWeight: 400 }}
+                >
+                  Cybersecurity threats can be defined as digital acts performed
+                  by individuals with a harmful intent such as stealing data,
+                  leaking it, encrypting it or making computing systems...
                 </p>
                 <a
                   href="/"
@@ -54,7 +64,7 @@ const Blog = () => {
               </div>
             </div>
             <div
-              className="overflow-hidden transition-shadow duration-300 bg-[#082C6B] rounded shadow-sm"
+              className="overflow-hidden transition-shadow duration-300 p-5 bg-[#082C6B] rounded shadow-sm"
               data-aos="flip-left"
               data-aos-duration="3000"
             >
@@ -68,14 +78,24 @@ const Blog = () => {
                   href="/"
                   aria-label="Category"
                   title="Simple is better"
-                  className="inline-block mb-3 text-2xl font-bold  transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  className="inline-block mb-3 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  style={{
+                    fontFamily: "Antic",
+                    fontWeight: 400,
+                    fontSize: "24px",
+                  }}
                 >
-                  HOW DELTAPATH APPLICATION CAN HELP S ALESFORCE USER TO RECEIVE
-                  THE CALL
+                  DIGITAL SAFETY NETS: EXPLORING THE IMPACT OF CYBERSECURITY ON
+                  UX DESIGN
                 </a>
-                <p className="mb-2 text-white">
-                  Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                  consequuntur magni voluptatem doloremque.
+                <p
+                  className="mb-2 text-white"
+                  style={{ fontFamily: "Inter", fontWeight: 400 }}
+                >
+                  User experience (UX) has become a crucial aspect of every
+                  digital product or service. A UX designer always aims to
+                  create user-friendly and enjoyable experiences for
+                  end-users....
                 </p>
                 <a
                   href="/"
@@ -87,7 +107,7 @@ const Blog = () => {
               </div>
             </div>
             <div
-              className="overflow-hidden transition-shadow duration-300 bg-[#082C6B] rounded shadow-sm"
+              className="overflow-hidden transition-shadow duration-300 p-5 bg-[#082C6B] rounded shadow-sm"
               data-aos="flip-left"
               data-aos-duration="3000"
             >
@@ -100,12 +120,24 @@ const Blog = () => {
                 <a
                   href="/"
                   aria-label="Category"
-                  title="Film It!"
-                  className="inline-block mb-5 text-2xl font-bold  transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  title="Visit the East"
+                  className="inline-block mb-3 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  style={{
+                    fontFamily: "Antic",
+                    fontWeight: 400,
+                    fontSize: "24px",
+                  }}
                 >
-                  8 BEASY SEO TIPS FOR WRITING ARTICLES ONLINE
+                  CYBERSECURITY FOR SELF- STORAGE BUSINESSES
                 </a>
-
+                <p
+                  className="mb-2 text-white"
+                  style={{ fontFamily: "Inter", fontWeight: 400 }}
+                >
+                  In the era of digital transformation, the security of storage
+                  units transcends beyond physical locks and surveillance
+                  cameras. The integration of technology into storage...
+                </p>
                 <a
                   href="/"
                   aria-label=""
@@ -116,7 +148,7 @@ const Blog = () => {
               </div>
             </div>
             <div
-              className="overflow-hidden transition-shadow duration-300 bg-[#082C6B] rounded shadow-sm"
+              className="overflow-hidden transition-shadow duration-300 p-5 bg-[#082C6B] rounded shadow-sm"
               data-aos="flip-left"
               data-aos-duration="3000"
             >
@@ -129,12 +161,26 @@ const Blog = () => {
                 <a
                   href="/"
                   aria-label="Category"
-                  title="Film It!"
-                  className="inline-block mb-5 text-2xl font-bold  transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  title="Visit the East"
+                  className="inline-block mb-3 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  style={{
+                    fontFamily: "Antic",
+                    fontWeight: 400,
+                    fontSize: "24px",
+                  }}
                 >
-                  TOP 10 MARKETING ARTICLES OF 2021
+                  WHAT CAN YOU DO WITH AN ONLINE GRADUATE CERTIFICATE IN
+                  CYBERSECURITY?
                 </a>
-
+                <p
+                  className="mb-2 text-white"
+                  style={{ fontFamily: "Inter", fontWeight: 400 }}
+                >
+                  An online graduate certificate in cybersecurity is a versatile
+                  qualification that opens up a realm of exciting career
+                  opportunities. This credential is unique; it is more than
+                  just...
+                </p>
                 <a
                   href="/"
                   aria-label=""
@@ -145,7 +191,7 @@ const Blog = () => {
               </div>
             </div>
             <div
-              className="overflow-hidden transition-shadow duration-300 bg-[#082C6B] rounded shadow-sm"
+              className="overflow-hidden transition-shadow duration-300 p-5 bg-[#082C6B] rounded shadow-sm"
               data-aos="flip-left"
               data-aos-duration="3000"
             >
@@ -158,13 +204,24 @@ const Blog = () => {
                 <a
                   href="/"
                   aria-label="Category"
-                  title="Film It!"
-                  className="inline-block mb-5 text-2xl font-bold transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  title="Visit the East"
+                  className="inline-block mb-3 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  style={{
+                    fontFamily: "Antic",
+                    fontWeight: 400,
+                    fontSize: "24px",
+                  }}
                 >
-                  WHEN AND WHY YOU SHOULD SWITH TO A CLOUD CONTACT CENTRE
-                  SOLUTION (WHAT TO AVOID0)
+                  CYBERSECURITY BASICS FOR CRYPTOCURRENCY INVESTORS
                 </a>
-
+                <p
+                  className="mb-2 text-white"
+                  style={{ fontFamily: "Inter", fontWeight: 400 }}
+                >
+                  The truth about cryptocurrency trading is that it isn’t the
+                  get-rich-quick route that many inexperienced people hope and
+                  believe it to be. While some people do indeed end up...
+                </p>
                 <a
                   href="/"
                   aria-label=""
@@ -175,7 +232,7 @@ const Blog = () => {
               </div>
             </div>
             <div
-              className="overflow-hidden transition-shadow duration-300 bg-[#082C6B] rounded shadow-sm"
+              className="overflow-hidden transition-shadow duration-300 p-5 bg-[#082C6B] rounded shadow-sm"
               data-aos="flip-left"
               data-aos-duration="3000"
             >
@@ -188,13 +245,26 @@ const Blog = () => {
                 <a
                   href="/"
                   aria-label="Category"
-                  title="Film It!"
-                  className="inline-block mb-5 text-2xl font-bold transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  title="Visit the East"
+                  className="inline-block mb-3 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                  style={{
+                    fontFamily: "Antic",
+                    fontWeight: 400,
+                    fontSize: "24px",
+                  }}
                 >
-                  8 BENEFITS OF ADOPTING CLOUD TELEPHONY BEYOND ENABLING REMOTE
-                  WORK
+                  CRYPTOCURRENCY SECURITY:HOW TO CHOOSE THE SAFEST EXCHANGE FOR
+                  TRADING
                 </a>
-
+                <p
+                  className="mb-2 text-white"
+                  style={{ fontFamily: "Inter", fontWeight: 400 }}
+                >
+                  Despite the risks associated with crypto trading, many people
+                  continue to maintain a high level of interest in
+                  cryptocurrencies. High returns can be considered as one of
+                  the...
+                </p>
                 <a
                   href="/"
                   aria-label=""
