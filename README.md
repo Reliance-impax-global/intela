@@ -28,7 +28,7 @@ Technology: HTML, Tailwind CSS, daisyui, React js.
 
 ### Links
 
-- Live Site URL: [Live Link](https://intela.vercel.app/)
+- Live Site URL: [Live Link](https://react-intela.netlify.app/)
 
 ## My process
 
