@@ -113,7 +113,10 @@ const Navbar = () => {
                 <summary>
                   <Link to="/services">SERVICES</Link>
                 </summary>
-                <ul className="p-2 bg-[#132A50]">
+                <ul
+                  className="p-2 bg-[#132A50]"
+                  style={{ borderRadius: "2px" }}
+                >
                   <li>
                     <Link to="/partner-services">PARTNER SERVICES</Link>
                   </li>
@@ -137,7 +140,10 @@ const Navbar = () => {
                 <summary>
                   <Link to="/solution">SOLUTION</Link>
                 </summary>
-                <ul className="p-2 bg-[#132A50]">
+                <ul
+                  className="p-2 bg-[#132A50]"
+                  style={{ borderRadius: "2px" }}
+                >
                   <li>
                     <Link to="/unified-communication">
                       Unified Communication
@@ -157,13 +163,17 @@ const Navbar = () => {
                 <summary>
                   <Link to="/blog">Blog</Link>
                 </summary>
-                <ul className="p-2 bg-[#132A50]">
+                <ul
+                  className="p-2 bg-[#132A50]"
+                  style={{ borderRadius: "2px" }}
+                >
                   <li>
                     <Link to="/blog-deltapath">Blog For Deltapath</Link>
                   </li>
                 </ul>
               </details>
             </li>
+
             <li>
               <Link to="/about">ABOUT</Link>
             </li>
@@ -173,7 +183,12 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end md:me-20 z-50">
-          <a className="btn bg-[#BD981B] w-[100px] md:w-[111px]">Free Call</a>
+          <a
+            href="#_"
+            className="px-4 py-2 font-medium bg-yellow-500 hover:bg-blue-100 hover:text-blue-600 text-black rounded-lg text-sm"
+          >
+            Free Call
+          </a>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ const Footer = () => {
         className="absolute inset-0"
         style={{
           backgroundImage: `url(${gradientOverlay})`,
-          opacity: 0.97,
+          opacity: 0.9,
         }}
       ></div>
 

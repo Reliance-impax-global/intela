@@ -25,7 +25,7 @@ const Home = () => {
           className="absolute inset-0 flex items-center justify-center"
           style={{
             backgroundImage: `url(${gradientOverlay})`,
-            opacity: 0.97,
+            opacity: 0.9,
           }}
         >
           <div className="text-white text-center">
