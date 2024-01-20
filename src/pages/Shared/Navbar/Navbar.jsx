@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../../../assets/images/logo.png";
 import background from "../../../assets/images/background-image.png";
 import gradientOverlay from "../../../assets/images/baygrond5.png";
+import CallRequest from "./CallRequest";
 const Navbar = () => {
   return (
     <div
@@ -183,12 +184,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end md:me-20 z-50">
-          <a
-            href="#_"
-            className="px-4 py-2 font-medium bg-yellow-500 hover:bg-blue-100 hover:text-blue-600 text-black rounded-lg text-sm"
-          >
-            Free Call
-          </a>
+          <CallRequest />
         </div>
       </div>
     </div>
