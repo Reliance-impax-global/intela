@@ -4,6 +4,7 @@ import psad2 from "../../../assets/pertnerServices/psad2.png";
 import psad3 from "../../../assets/pertnerServices/psad3.png";
 
 import Aos from "aos";
+import { Link } from "react-router-dom";
 
 const PsAdService = () => {
   useEffect(() => {
@@ -23,9 +24,12 @@ const PsAdService = () => {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad sunt,
           ipsa quaerat tenetur sequi <br /> perferendis quos totam facere minima{" "}
         </p>
-        <a className="btn bg-[#BD981B] text-white w-full md:w-[150px] mr-0 md:mr-4 mb-2 md:mb-0">
+        <Link
+          to="/app-development"
+          className="btn bg-[#BD981B] text-white w-full md:w-[150px] mr-0 md:mr-4 mb-2 md:mb-0"
+        >
           View All Services
-        </a>
+        </Link>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ml-4 sm:ml-8 md:mx-16 lg:mx-20 my-6 sm:my-8 md:my-10 lg:my-12 bg-[#082C6B] shadow-2xl border-8 border-solid border-[#082D6C] rounded-2xl">
         <div

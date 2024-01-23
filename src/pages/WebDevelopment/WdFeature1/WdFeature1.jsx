@@ -27,7 +27,10 @@ const WdFeature1 = () => {
                 ipsam aliquid non dolores ad at voluptatibus dolorum vel,
                 asperiores..
               </p>
-              <a className="text-[#BD981B] py-5 underline" href="">
+              <a
+                className="text-[#BD981B] py-5 underline"
+                href="/web-development"
+              >
                 View More
               </a>
               <br />

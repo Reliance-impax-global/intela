@@ -1,8 +1,14 @@
 import location from "../../../assets/contact/Vector.png";
 import phone from "../../../assets/contact/Vector (1).png";
 import envelope from "../../../assets/contact/envelope 1.png";
+import { useForm, Controller } from "react-hook-form";
 
 const ContactForm = () => {
+  const { handleSubmit, control } = useForm();
+
+  const onSubmit = (data) => {
+    console.log(data);
+  };
   return (
     <div className="bg-[#021D4A] text-white md:p-20 p-10">
       <div className="md:flex md:justify-center gap-12 p-5">
@@ -43,25 +49,63 @@ const ContactForm = () => {
             HOW WE CAN ASSIST YOU{" "}
           </h2>
           <div className="md:ml-6">
-            <form>
-              <input
-                type="text"
-                placeholder="Name"
-                className="input input-bordered w-full md:max-w-xs mb-3 bg-[#D9D9D933]"
+            <form onSubmit={handleSubmit(onSubmit)}>
+              <Controller
+                name="name"
+                control={control}
+                render={({ field }) => (
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    className="input input-bordered w-full md:max-w-xs mb-3 bg-gray-600"
+                    {...field}
+                  />
+                )}
               />
-              <input
-                type="email"
-                placeholder="Email"
-                className="input input-bordered w-full md:max-w-xs mb-3 bg-[#D9D9D933]"
+
+              <Controller
+                name="email"
+                control={control}
+                render={({ field }) => (
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    className="input input-bordered w-full md:max-w-xs mb-3 bg-gray-600"
+                    {...field}
+                  />
+                )}
               />
-              <input
-                type="number"
-                placeholder="Phone Number"
-                className="input input-bordered w-full md:max-w-xs mb-3 bg-[#D9D9D933]"
+
+              <Controller
+                name="phone"
+                control={control}
+                render={({ field }) => (
+                  <input
+                    type="number"
+                    placeholder="Phone Number"
+                    className="input input-bordered w-full md:max-w-xs mb-3 bg-gray-600"
+                    {...field}
+                  />
+                )}
               />
-              <textarea className="input-bordered rounded-xl w-full md:max-w-xs p-10 mb-8 bg-[#D9D9D933]"></textarea>
+
+              <Controller
+                name="message"
+                control={control}
+                render={({ field }) => (
+                  <textarea
+                    placeholder="Message"
+                    className="input-bordered rounded-xl w-full md:max-w-xs p-10 mb-8 bg-gray-600"
+                    {...field}
+                  />
+                )}
+              />
+
               <div className="md:text-center">
-                <button className="w-[160px] bg-yellow-500 md:mr-0 rounded-lg md:ml-28 mb-5 md:px-1 py-2">
+                <button
+                  type="submit"
+                  className="w-[160px] bg-yellow-500 md:mr-0 rounded-lg md:ml-28 mb-5 md:px-1 py-2"
+                >
                   submit your request
                 </button>
               </div>

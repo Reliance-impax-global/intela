@@ -37,19 +37,19 @@ const Footer = () => {
             broad range of solution portfolios. We provide consultancy for your
             business.
           </p>
-          <div className="flex mt-4 md:mt-8">
+          <div className="flex items-center mt-4 md:mt-8">
             <a className="me-4">
               <img className="w-8 md:w-[30px]" src={facebook} alt="facebook" />
             </a>
             <a className="me-4">
-              <img className="w-6 md:w-[24px]" src={twitter} alt="twitter" />
+              <img className="w-6 md:w-[20px]" src={twitter} alt="twitter" />
             </a>
             <a className="me-4">
-              <img className="w-8 md:w-[30px]" src={youtube} alt="youtube" />
+              <img className="w-8 md:w-[38px]" src={youtube} alt="youtube" />
             </a>
             <a>
               <img
-                className="w-8 md:w-[30px]"
+                className="w-8 md:w-[35px]"
                 src={instagram}
                 alt="instagram"
               />
