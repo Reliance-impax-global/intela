@@ -8,12 +8,12 @@ import PsCsService from "./PsCsService/PsCsService";
 
 const PartnerServices = () => {
   return (
-    <div className="-z-40">
+    <div className="z-30">
       <Helmet>
         <title>Intela ~ Services ~ Partner Services</title>
       </Helmet>
       <div
-        className="relative bg-cover h-screen -z-20"
+        className="relative bg-cover h-screen z-20"
         style={{
           backgroundImage: `url(${background})`,
           height: "100vh",
