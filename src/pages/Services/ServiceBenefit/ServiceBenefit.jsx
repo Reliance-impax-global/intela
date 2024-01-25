@@ -5,7 +5,7 @@ import benefit4 from "../../../assets/services/Vector (3).png";
 import benefit5 from "../../../assets/services/Vector (4).png";
 const ServiceBenefit = () => {
   return (
-    <div className="mx-4 md:mx-8 lg:mx-20 shadow-2xl pb-10">
+    <div className="mx-4 md:mx-8 lg:mx-20 pb-10">
       <div>
         <h2 className="text-white text-left px-4 md:ml-28 pt-5">
           INDUSTRIES THAT CAN BENEFIT FROM SERVICES SOLUTION, WE HELP THE
@@ -14,7 +14,7 @@ const ServiceBenefit = () => {
         </h2>
       </div>
 
-      <div className="py-16 md:ml-24 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 rounded-2xl shadow-2xl">
+      <div className="py-16 md:ml-24 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 rounded-2xl">
         <div className="grid grid-cols-2 gap-5 row-gap-5 sm:grid-cols-3 lg:grid-cols-6">
           <div className="text-center border rounded-lg shadow-2xl">
             <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 sm:w-12 sm:h-12 animate-bounce hover:animate-ping">

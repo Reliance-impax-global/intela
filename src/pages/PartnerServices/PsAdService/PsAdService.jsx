@@ -12,7 +12,7 @@ const PsAdService = () => {
   }, []);
 
   return (
-    <div className="bg-[#021D49] text-white pb-10">
+    <div className="bg-[#021D49] text-white pb-10 z-[100]">
       <div className="pt-14 text-center">
         <h2
           className=" text-3xl"
@@ -26,7 +26,7 @@ const PsAdService = () => {
         </p>
         <Link
           to="/app-development"
-          className="btn bg-[#BD981B] text-white w-full md:w-[150px] mr-0 md:mr-4 mb-2 md:mb-0"
+          className="btn bg-[#BD981B] hover:bg-blue-950 text-white w-full md:w-[150px] z-50 mr-0 md:mr-4 mb-2 md:mb-0"
         >
           View All Services
         </Link>
@@ -43,9 +43,9 @@ const PsAdService = () => {
           <div className="card-body items-center text-center">
             <p>UX/UI Design</p>
             <div className="card-actions pt-5">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white">
                 View Details
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -63,9 +63,12 @@ const PsAdService = () => {
               Development
             </p>
             <div className="card-actions pt-5">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="#"
+              >
                 View Details
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -87,9 +90,12 @@ const PsAdService = () => {
               <br /> Development
             </p>
             <div className="card-actions pt-5">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="#"
+              >
                 View Details
-              </button>
+              </a>
             </div>
           </div>
         </div>

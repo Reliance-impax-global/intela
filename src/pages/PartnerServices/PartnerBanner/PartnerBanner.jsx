@@ -20,7 +20,7 @@ const PartnerBanner = () => {
           OUR TRUSTED SERVICE PROVIDER FOR COMPREHENSIVE IT SOLUTION
         </h2>
       </div>
-      <div className="relative bg-[#f7efef1a] z-30 mx-4 md:mx-8 lg:mx-20">
+      <div className="relative bg-[#f7efef1a] mx-4 md:mx-8 lg:mx-20">
         <div className="flex flex-col md:flex-row justify-between items-center h-full">
           <div className="w-full md:w-1/2 mb-4 md:mb-0">
             <img
@@ -44,14 +44,15 @@ const PartnerBanner = () => {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad sunt,
               ipsa quaerat tenetur sequi perferendis quos totam facere minima
             </p>
-            <div className="flex flex-col md:flex-row">
+            <div className="flex flex-row md:flex-row">
               <a
-                className="btn bg-[#BD981B] w-full md:w-[150px] mr-0 md:mr-4 mb-2 md:mb-0"
+                className="btn bg-[#BD981B] hover:bg-blue-950 hover:text-white w-1/2 md:w-[150px] mr-0 md:mr-4 mb-2 md:mb-0"
+                href="#"
                 style={{ fontFamily: "Inter", fontWeight: 500 }}
               >
                 Request a demo
               </a>
-              <a className="btn bg-[#fff] text-black w-full md:w-[170px]">
+              <a className="btn bg-[#fff] hover:bg-blue-950 hover:text-white text-black w-1/2 md:w-[170px]">
                 Request a Quotation
               </a>
             </div>

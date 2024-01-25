@@ -26,9 +26,12 @@ const Products = () => {
               software-based offering.
             </p>
             <div className="card-actions justify-start">
-              <button className="btn bg-[#082C6B] text-white">
+              <a
+                className="btn bg-[#082C6B] hover:bg-blue-950 text-white"
+                href="#"
+              >
                 Learn more
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -47,9 +50,12 @@ const Products = () => {
               vulnerabilities like SQL Injection, XSS, and CSRF.
             </p>
             <div className="card-actions justify-start">
-              <button className="btn bg-[#082C6B] text-white">
+              <a
+                className="btn bg-[#082C6B] hover:bg-blue-950 text-white"
+                href="#"
+              >
                 Learn more
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -69,9 +75,9 @@ const Products = () => {
               from sophisticated internet
             </p>
             <div className="card-actions justify-start">
-              <button className="btn bg-[#082C6B] text-white">
+              <a className="btn bg-[#082C6B] hover:bg-blue-950 text-white">
                 Learn more
-              </button>
+              </a>
             </div>
           </div>
         </div>

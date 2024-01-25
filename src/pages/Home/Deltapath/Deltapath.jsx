@@ -33,7 +33,7 @@ const Deltapath = () => {
             <h2 className="card-title mb-2">Deltapath Engage</h2>
             <p className="mb-2">Mac App store</p>
             <div className="card-actions justify-center">
-              <button className="w-[100px] md:w-[130px] h-[45px] bg-yellow-500 mr-40 rounded-lg ml-32">
+              <button className="w-[100px] md:w-[130px] h-[45px] bg-yellow-500 hover:bg-blue-950 mr-40 rounded-lg ml-32">
                 Download
               </button>
             </div>
@@ -48,7 +48,7 @@ const Deltapath = () => {
             <h2 className="card-title mb-2">Deltapath Engage</h2>
             <p className="mb-2">Apple Store</p>
             <div className="card-actions justify-center">
-              <button className="w-[100px] md:w-[130px] h-[45px] bg-yellow-500 mr-40 rounded-lg ml-32">
+              <button className="w-[100px] md:w-[130px] h-[45px] bg-yellow-500 hover:bg-blue-950 mr-40 rounded-lg ml-32">
                 Download
               </button>
             </div>
@@ -63,7 +63,7 @@ const Deltapath = () => {
             <h2 className="card-title mb-2">Deltapath Engage</h2>
             <p className="mb-2">Play Store</p>
             <div className=" card-actions justify-center">
-              <button className="w-[100px] md:w-[130px] h-[45px] bg-yellow-500 mr-40 rounded-lg ml-32">
+              <button className="w-[100px] md:w-[130px] h-[45px] bg-yellow-500 hover:bg-blue-950 mr-40 rounded-lg ml-32">
                 Download
               </button>
             </div>
@@ -85,9 +85,12 @@ const Deltapath = () => {
           <div className="card-body items-center text-center">
             <p>Lorem ipsum dolor sit amet consectetur, adipisi..</p>
             <div className="card-actions">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="/blog"
+              >
                 Read More
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -102,9 +105,12 @@ const Deltapath = () => {
           <div className="card-body items-center text-center">
             <p>Lorem ipsum dolor sit amet consectetur, adipisi..</p>
             <div className="card-actions">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="/blog"
+              >
                 Read More
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -119,9 +125,12 @@ const Deltapath = () => {
           <div className="card-body items-center text-center">
             <p>Lorem ipsum dolor sit amet consectetur, adipisi..</p>
             <div className="card-actions">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="/blog"
+              >
                 Read More
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -136,9 +145,12 @@ const Deltapath = () => {
           <div className="card-body items-center text-center">
             <p>Lorem ipsum dolor sit amet consectetur, adipisi..</p>
             <div className="card-actions">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="/blog"
+              >
                 Read More
-              </button>
+              </a>
             </div>
           </div>
         </div>

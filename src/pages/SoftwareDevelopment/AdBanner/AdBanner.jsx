@@ -49,10 +49,10 @@ const AdBanner = () => {
               perfect solution for your business
             </p>
             <div className="flex  md:flex-row ">
-              <a className="btn bg-[#BD981B] w-1/2 md:w-[150px] mr-0 md:mr-4 mb-2 md:mb-0">
+              <a className="btn bg-[#BD981B] hover:bg-blue-950 hover:text-white w-1/2 md:w-[150px] mr-0 md:mr-4 mb-2 md:mb-0">
                 Request a demo
               </a>
-              <a className="btn bg-[#fff] text-black w-1/2 md:w-[170px]">
+              <a className="btn bg-[#fff] text-black hover:bg-blue-950 hover:text-white w-1/2 md:w-[170px]">
                 Request a Quotation
               </a>
             </div>

@@ -26,7 +26,7 @@ const PsWdService = () => {
         </p>
         <Link
           to="/web-development"
-          className="btn bg-[#BD981B] text-white w-full md:w-[150px] mr-0 md:mr-4 mb-2 md:mb-0"
+          className="btn bg-[#BD981B] hover:bg-blue-950 text-white w-full md:w-[150px] mr-0 md:mr-4 mb-2 md:mb-0"
         >
           View All Services
         </Link>
@@ -46,9 +46,12 @@ const PsWdService = () => {
               <br /> Development
             </p>
             <div className="card-actions pt-5">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="#"
+              >
                 View Details
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -66,9 +69,12 @@ const PsWdService = () => {
               Website
             </p>
             <div className="card-actions pt-5">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="#"
+              >
                 View Details
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -90,9 +96,12 @@ const PsWdService = () => {
               <br /> Website
             </p>
             <div className="card-actions pt-5">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="#"
+              >
                 View Details
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -114,9 +123,12 @@ const PsWdService = () => {
               <br /> Website
             </p>
             <div className="card-actions pt-5">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="#"
+              >
                 View Details
-              </button>
+              </a>
             </div>
           </div>
         </div>

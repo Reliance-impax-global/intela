@@ -8,25 +8,25 @@ import PsCsService from "./PsCsService/PsCsService";
 
 const PartnerServices = () => {
   return (
-    <div>
+    <div className="-z-40">
       <Helmet>
         <title>Intela ~ Services ~ Partner Services</title>
       </Helmet>
       <div
-        className="relative bg-cover h-screen"
+        className="relative bg-cover h-screen -z-20"
         style={{
           backgroundImage: `url(${background})`,
           height: "100vh",
         }}
       >
         <div
-          className="absolute inset-0 flex items-center justify-center"
+          className="absolute inset-0 -z-10 flex items-center justify-center"
           style={{
             backgroundImage: `url(${gradientOverlay})`,
             opacity: 0.97,
           }}
         >
-          <div className="text-white text-center bg-[#021D49]">
+          <div className="text-white text-center bg-[#021D49] mb-12 md:mb-0 -z-10">
             <PartnerBanner />
           </div>
         </div>

@@ -1,16 +1,26 @@
 import { useState } from "react";
+import ChatPopup from "./ChatPopup";
 
 const CallRequest = () => {
   const [modalOpen, setModalOpen] = useState(false);
+  const [chatOpen, setChatOpen] = useState(false);
 
   const closeModal = () => {
     setModalOpen(false);
   };
 
+  const openChat = () => {
+    setChatOpen(true);
+  };
+
+  const closeChat = () => {
+    setChatOpen(false);
+  };
+
   return (
     <>
       <button
-        className="px-4 py-2 font-medium bg-yellow-500 hover:bg-blue-100 hover:text-blue-600 text-black rounded-lg text-sm"
+        className="px-4 py-2 font-medium bg-yellow-500 hover:bg-blue-950 hover:text-white text-black rounded-lg text-sm"
         onClick={() => setModalOpen(true)}
       >
         Free Call
@@ -77,14 +87,19 @@ const CallRequest = () => {
                   />
                 </div>
                 <div className="text-center mt-10">
-                  <a className="bg-[#BD981B] text-black w-full md:w-[150px] px-8 py-3 mr-0 md:mr-4 mt-5 md:mb-0">
+                  <a
+                    className="bg-[#BD981B] text-black w-full md:w-[150px] px-8 py-3 mr-0 md:mr-4 mt-5 md:mb-0"
+                    href="#"
+                    onClick={openChat}
+                  >
                     Request a Call
                   </a>
 
                   <h2 className="text-xl my-4">Or</h2>
                   <a
-                    href=""
+                    href="#"
                     className="underline"
+                    onClick={openChat}
                     style={{
                       fontFamily: "Roboto",
                       fontSize: "25px",
@@ -101,6 +116,12 @@ const CallRequest = () => {
             </div>
           </div>
         </dialog>
+      )}
+
+      {chatOpen && (
+        <div className="chat-popup">
+          <ChatPopup onClose={closeChat} />
+        </div>
       )}
     </>
   );

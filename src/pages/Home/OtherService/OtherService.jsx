@@ -32,9 +32,12 @@ const OtherService = () => {
               eos minima incidunt.
             </p>
             <div className="card-actions">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="#"
+              >
                 Details
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -53,9 +56,12 @@ const OtherService = () => {
               eos minima incidunt.
             </p>
             <div className="card-actions">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="#"
+              >
                 Details
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -74,9 +80,12 @@ const OtherService = () => {
               eos minima incidunt.
             </p>
             <div className="card-actions">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="#"
+              >
                 Details
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -95,9 +104,12 @@ const OtherService = () => {
               eos minima incidunt.
             </p>
             <div className="card-actions">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="#"
+              >
                 Details
-              </button>
+              </a>
             </div>
           </div>
         </div>

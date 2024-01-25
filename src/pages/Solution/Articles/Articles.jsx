@@ -156,8 +156,11 @@ const Articles = () => {
         </div>
       </div>
       <div className="text-center py-10">
-        <a className="btn bg-[#BD981B] text-[rgba(43, 42, 42, 1)] w-full md:w-[180px] mr-0 md:mr-4 mb-2 md:mb-0">
-          explore more article
+        <a
+          className="btn bg-[#BD981B] hover:bg-blue-950 hover:text-white text-[rgba(43, 42, 42, 1)] w-full md:w-[180px] mr-0 md:mr-4 mb-2 md:mb-0"
+          href="/blog"
+        >
+          Explore more Article
         </a>
       </div>
     </div>

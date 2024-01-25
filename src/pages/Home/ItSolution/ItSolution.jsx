@@ -36,9 +36,12 @@ const ItSolution = () => {
               eos minima incidunt.
             </p>
             <div className="card-actions">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="/cyber-security"
+              >
                 Details
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -61,9 +64,12 @@ const ItSolution = () => {
               eos minima incidunt.
             </p>
             <div className="card-actions">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="/solution"
+              >
                 Details
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -86,9 +92,12 @@ const ItSolution = () => {
               eos minima incidunt.
             </p>
             <div className="card-actions">
-              <button className="btn bg-[#082D6C] outline-none  rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none  rounded-xl text-white"
+                href="/application"
+              >
                 Details
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -111,9 +120,12 @@ const ItSolution = () => {
               eos minima incidunt.
             </p>
             <div className="card-actions">
-              <button className="btn bg-[#082D6C] outline-none rounded-xl text-white">
+              <a
+                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                href="/partner-services"
+              >
                 Details
-              </button>
+              </a>
             </div>
           </div>
         </div>

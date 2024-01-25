@@ -29,9 +29,12 @@ const UnlockExclusive = () => {
             </div>
 
             <div className="mt-2 md:mt-0 ml-4 md:ml-2 md:mr-5 pr-5">
-              <button className="w-[70px] md:w-[90px] lg:w-[100px] md:h-[45px] h-[30px] bg-yellow-500 rounded-lg">
+              <a
+                className="btn w-[70px] md:w-[90px] lg:w-[100px] md:h-[45px] h-[30px] bg-yellow-500 text-white hover:bg-[#021D49] rounded-lg"
+                href="/services"
+              >
                 Services
-              </button>
+              </a>
             </div>
           </div>
 
@@ -45,9 +48,12 @@ const UnlockExclusive = () => {
             </div>
 
             <div className="mt-4 md:mt-0 ml-4 md:mr-5 sm:mb-6">
-              <button className="w-[70px] md:w-[90px] lg:w-[100px] md:h-[45px] h-[30px] bg-yellow-500 rounded-lg">
+              <a
+                className="btn w-[70px] md:w-[90px] lg:w-[100px] md:h-[45px] h-[30px] bg-yellow-500 text-white hover:bg-[#021D49] rounded-lg"
+                href="/services"
+              >
                 Services
-              </button>
+              </a>
             </div>
           </div>
         </div>
