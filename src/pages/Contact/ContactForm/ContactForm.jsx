@@ -104,7 +104,7 @@ const ContactForm = () => {
               <div className="md:text-center">
                 <button
                   type="submit"
-                  className="w-[160px] bg-yellow-500 md:mr-0 rounded-lg md:ml-28 mb-5 md:px-1 py-2"
+                  className="w-[160px] bg-yellow-500 hover:bg-blue-950 hover:text-white md:mr-0 rounded-lg md:ml-28 mb-5 md:px-1 py-2"
                 >
                   submit your request
                 </button>

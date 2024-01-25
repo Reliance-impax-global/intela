@@ -31,7 +31,8 @@ const CsFeature1 = () => {
             <br />
             <br />
             <a
-              className="btn bg-[#BD981B] w-full md:w-[180px] mr-0 md:mr-4 mb-2 md:mb-0 font-inter text-25 font-medium"
+              className="btn bg-[#BD981B] hover:bg-blue-950 hover:text-white w-full md:w-[180px] mr-0 md:mr-4 mb-2 md:mb-0 font-inter text-25 font-medium"
+              href="#"
               style={{ fontFamily: "Inter", fontWeight: 500 }}
             >
               Book a consultation

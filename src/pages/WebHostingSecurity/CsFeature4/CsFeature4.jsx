@@ -23,7 +23,10 @@ const CsFeature4 = () => {
             </a>
             <br />
             <br />
-            <a className="btn bg-[#BD981B] w-full md:w-[195px] mr-0 md:mr-4 mb-2 md:mb-0 font-inter text-25 font-medium">
+            <a
+              className="btn bg-[#BD981B] hover:bg-blue-950 hover:text-white w-full md:w-[195px] mr-0 md:mr-4 mb-2 md:mb-0 font-inter text-25 font-medium"
+              href="#"
+            >
               Book a consultation
             </a>
           </div>

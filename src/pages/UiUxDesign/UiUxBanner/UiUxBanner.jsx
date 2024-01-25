@@ -45,10 +45,16 @@ const UiUxBanner = () => {
               Experts
             </p>
             <div className="flex flex-col md:flex-row">
-              <a className="btn bg-[#BD981B] w-full md:w-[150px] mr-0 md:mr-4 mb-2 md:mb-0">
+              <a
+                className="btn bg-[#BD981B] hover:bg-blue-950 hover:text-white w-full md:w-[150px] mr-0 md:mr-4 mb-2 md:mb-0"
+                href="#"
+              >
                 Request a demo
               </a>
-              <a className="btn bg-[#fff] text-black w-full md:w-[170px]">
+              <a
+                className="btn bg-[#fff] hover:bg-blue-950 hover:text-white text-black w-full md:w-[170px]"
+                href="#"
+              >
                 Request a Quotation
               </a>
             </div>
