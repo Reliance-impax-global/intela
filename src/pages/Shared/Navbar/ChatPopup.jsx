@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import PropTypes from "prop-types";
 import sendIcon from "../../../assets/images/Vector (1).png";
 import inputFIcon from "../../../assets/images/Vector (2).png";
@@ -6,6 +6,7 @@ import inputFIcon from "../../../assets/images/Vector (2).png";
 const ChatPopup = ({ onClose }) => {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
+  const fileInputRef = useRef(null);
 
   const handleChange = (e) => {
     setMessage(e.target.value);
@@ -26,10 +27,19 @@ const ChatPopup = ({ onClose }) => {
     onClose();
   };
 
+  const handleFileIconClick = () => {
+    fileInputRef.current.click();
+  };
+
+  const handleFileChange = (e) => {
+    const selectedFile = e.target.files[0];
+    console.log("Selected file:", selectedFile);
+  };
+
   return (
     <>
       <dialog className="modal" open>
-        <div className="modal-box bg-[#021D4A] text-white border-2 border-blue-950 p-4 my-5 rounded-md w-screen">
+        <div className="modal-box bg-[#021D4A] text-white border-2 border-blue-950 p-6 my-5 rounded-md w-screen">
           <div className="text-right">
             <button className="bg-[#021D4A]" onClick={handleChatClose}>
               <svg
@@ -113,11 +123,19 @@ const ChatPopup = ({ onClose }) => {
                   >
                     <img className="w-8" src={sendIcon} alt="" />
                     <img
-                      className="w-8 absolute -right-12 top-1"
+                      className="w-8 absolute -right-12 top-1 cursor-pointer"
                       src={inputFIcon}
                       alt=""
+                      onClick={handleFileIconClick}
                     />
                   </button>
+
+                  <input
+                    type="file"
+                    ref={fileInputRef}
+                    style={{ display: "none" }}
+                    onChange={handleFileChange}
+                  />
                 </div>
               </div>
             </form>
