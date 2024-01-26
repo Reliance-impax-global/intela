@@ -38,16 +38,16 @@ const Footer = () => {
             business.
           </p>
           <div className="flex items-center mt-4 md:mt-8">
-            <a className="me-4">
+            <a className="me-4 hover:animate-pulse" href="#">
               <img className="w-8 md:w-[30px]" src={facebook} alt="facebook" />
             </a>
-            <a className="me-4">
+            <a className="me-4 hover:animate-pulse" href="#">
               <img className="w-6 md:w-[20px]" src={twitter} alt="twitter" />
             </a>
-            <a className="me-4">
+            <a className="me-4 hover:animate-pulse" href="#">
               <img className="w-8 md:w-[38px]" src={youtube} alt="youtube" />
             </a>
-            <a>
+            <a className="hover:animate-pulse" href="#">
               <img
                 className="w-8 md:w-[35px]"
                 src={instagram}
