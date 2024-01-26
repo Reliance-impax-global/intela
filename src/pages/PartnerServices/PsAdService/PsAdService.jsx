@@ -15,8 +15,8 @@ const PsAdService = () => {
     <div className="bg-[#021D49] text-white pb-10 z-[100]">
       <div className="pt-14 text-center">
         <h2
-          className=" text-3xl"
-          style={{ fontFamily: "Roboto", fontWeight: 500, fontSize: "48px" }}
+          className=" text-2xl md:text-5xl"
+          style={{ fontFamily: "Roboto", fontWeight: 500 }}
         >
           APP DEVELOPMENT
         </h2>

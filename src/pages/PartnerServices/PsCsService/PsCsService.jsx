@@ -15,8 +15,8 @@ const PsCsService = () => {
     <div className="bg-[#021D49] text-white pb-10">
       <div className="pt-14 text-center">
         <h2
-          className=" text-3xl sm:text-xl"
-          style={{ fontFamily: "Roboto", fontWeight: 500, fontSize: "48px" }}
+          className=" text-2xl md:text-5xl"
+          style={{ fontFamily: "Roboto", fontWeight: 500 }}
         >
           CYBER SECURITY SERVICES
         </h2>
