@@ -39,7 +39,7 @@ const ChatPopup = ({ onClose }) => {
   return (
     <>
       <dialog className="modal" open>
-        <div className="modal-box bg-[#021D4A] text-white border-2 border-blue-950 p-6 my-5 rounded-md w-screen">
+        <div className="modal-box bg-[#021D4A] text-white border-2 border-blue-950 px-6 py-2 rounded-md w-screen">
           <div className="text-right">
             <button className="bg-[#021D4A]" onClick={handleChatClose}>
               <svg
