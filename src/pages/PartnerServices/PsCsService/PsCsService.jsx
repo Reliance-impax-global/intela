@@ -51,8 +51,14 @@ const PsCsService = () => {
             </p>
             <div className="card-actions pt-5">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
-                href="#"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
+                href="/web-development"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 View Details
               </a>
@@ -78,8 +84,14 @@ const PsCsService = () => {
             </p>
             <div className="card-actions pt-5">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
-                href="#"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
+                href="/web-development"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 View Details
               </a>
@@ -105,8 +117,14 @@ const PsCsService = () => {
             </p>
             <div className="card-actions pt-5">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
-                href="#"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
+                href="/web-development"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 View Details
               </a>
@@ -132,8 +150,14 @@ const PsCsService = () => {
             </p>
             <div className="card-actions pt-5">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
-                href="#"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
+                href="/web-development"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 View Details
               </a>

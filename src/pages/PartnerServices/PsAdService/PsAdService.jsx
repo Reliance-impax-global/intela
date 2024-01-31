@@ -43,7 +43,16 @@ const PsAdService = () => {
           <div className="card-body items-center text-center">
             <p>UX/UI Design</p>
             <div className="card-actions pt-5">
-              <a className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white">
+              <a
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
+                href="/ui-ux-design"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
+              >
                 View Details
               </a>
             </div>
@@ -64,8 +73,14 @@ const PsAdService = () => {
             </p>
             <div className="card-actions pt-5">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
-                href="#"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
+                href="/app-development"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 View Details
               </a>
@@ -91,8 +106,14 @@ const PsAdService = () => {
             </p>
             <div className="card-actions pt-5">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
-                href="#"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
+                href="/app-development"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 View Details
               </a>

@@ -27,10 +27,16 @@ const Products = () => {
             </p>
             <div className="card-actions justify-start">
               <a
-                className="btn bg-[#082C6B] hover:bg-blue-950 text-white"
-                href="#"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2 pl-7"
+                href="/network-security"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
-                Learn more
+                Learn More
               </a>
             </div>
           </div>
@@ -51,10 +57,16 @@ const Products = () => {
             </p>
             <div className="card-actions justify-start">
               <a
-                className="btn bg-[#082C6B] hover:bg-blue-950 text-white"
-                href="#"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2 pl-7"
+                href="/network-security"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
-                Learn more
+                Learn More
               </a>
             </div>
           </div>
@@ -75,8 +87,17 @@ const Products = () => {
               from sophisticated internet
             </p>
             <div className="card-actions justify-start">
-              <a className="btn bg-[#082C6B] hover:bg-blue-950 text-white">
-                Learn more
+              <a
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2 pl-7"
+                href="/network-security"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
+              >
+                Learn More
               </a>
             </div>
           </div>

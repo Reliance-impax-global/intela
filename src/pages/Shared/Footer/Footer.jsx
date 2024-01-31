@@ -38,7 +38,10 @@ const Footer = () => {
             business.
           </p>
           <div className="flex items-center mt-4 md:mt-8">
-            <a className="me-4 hover:animate-pulse" href="#">
+            <a
+              className="me-4 hover:animate-pulse"
+              href="https://web.facebook.com/people/Intela-Solution/100082929652175/"
+            >
               <img className="w-8 md:w-[30px]" src={facebook} alt="facebook" />
             </a>
             <a className="me-4 hover:animate-pulse" href="#">

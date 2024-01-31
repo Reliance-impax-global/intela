@@ -33,9 +33,12 @@ const Deltapath = () => {
             <h2 className="card-title mb-2">Deltapath Engage</h2>
             <p className="mb-2">Mac App store</p>
             <div className="card-actions justify-center">
-              <button className="w-[100px] md:w-[130px] h-[45px] bg-yellow-500 hover:bg-blue-950 mr-40 rounded-lg ml-32">
+              <a
+                className="btn w-[100px] md:w-[130px] h-[45px] bg-yellow-500 hover:bg-blue-950 hover:text-white mr-40 rounded-lg ml-32"
+                href="https://apps.apple.com/us/app/deltapath-engage/id1529241873?mt=12"
+              >
                 Download
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -48,9 +51,12 @@ const Deltapath = () => {
             <h2 className="card-title mb-2">Deltapath Engage</h2>
             <p className="mb-2">Apple Store</p>
             <div className="card-actions justify-center">
-              <button className="w-[100px] md:w-[130px] h-[45px] bg-yellow-500 hover:bg-blue-950 mr-40 rounded-lg ml-32">
+              <a
+                className="btn w-[100px] md:w-[130px] h-[45px] bg-yellow-500 hover:bg-blue-950 hover:text-white mr-40 rounded-lg ml-32"
+                href="https://apps.apple.com/us/app/deltapath-engage/id1529241873?mt=12"
+              >
                 Download
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -63,9 +69,12 @@ const Deltapath = () => {
             <h2 className="card-title mb-2">Deltapath Engage</h2>
             <p className="mb-2">Play Store</p>
             <div className=" card-actions justify-center">
-              <button className="w-[100px] md:w-[130px] h-[45px] bg-yellow-500 hover:bg-blue-950 mr-40 rounded-lg ml-32">
+              <a
+                className="btn w-[100px] md:w-[130px] h-[45px] bg-yellow-500 hover:bg-blue-950 hover:text-white mr-40 rounded-lg ml-32"
+                href="https://play.google.com/store/apps/details?id=com.deltapath.frsipMobile"
+              >
                 Download
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -86,8 +95,14 @@ const Deltapath = () => {
             <p>Lorem ipsum dolor sit amet consectetur, adipisi..</p>
             <div className="card-actions">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
                 href="/blog"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 Read More
               </a>
@@ -106,8 +121,14 @@ const Deltapath = () => {
             <p>Lorem ipsum dolor sit amet consectetur, adipisi..</p>
             <div className="card-actions">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
                 href="/blog"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 Read More
               </a>
@@ -126,8 +147,14 @@ const Deltapath = () => {
             <p>Lorem ipsum dolor sit amet consectetur, adipisi..</p>
             <div className="card-actions">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
                 href="/blog"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 Read More
               </a>
@@ -146,8 +173,14 @@ const Deltapath = () => {
             <p>Lorem ipsum dolor sit amet consectetur, adipisi..</p>
             <div className="card-actions">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
                 href="/blog"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 Read More
               </a>

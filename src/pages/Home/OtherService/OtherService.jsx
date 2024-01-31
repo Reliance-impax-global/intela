@@ -33,8 +33,14 @@ const OtherService = () => {
             </p>
             <div className="card-actions">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
-                href="#"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
+                href="/digital-marketing"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 Details
               </a>
@@ -57,8 +63,14 @@ const OtherService = () => {
             </p>
             <div className="card-actions">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
-                href="#"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
+                href="/"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 Details
               </a>
@@ -81,8 +93,14 @@ const OtherService = () => {
             </p>
             <div className="card-actions">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
-                href="#"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
+                href="/"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 Details
               </a>
@@ -105,8 +123,14 @@ const OtherService = () => {
             </p>
             <div className="card-actions">
               <a
-                className="btn bg-[#082D6C] hover:bg-blue-950 outline-none rounded-xl text-white"
-                href="#"
+                className="bg-[#132647] hover:bg-[#082D6C] text-white shadow-2xl pt-2"
+                href="/"
+                style={{
+                  width: "132px",
+                  height: "44px",
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  borderRadius: "15px",
+                }}
               >
                 Details
               </a>
